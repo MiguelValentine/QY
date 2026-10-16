@@ -1,0 +1,60 @@
+{
+  "schema": "fbase-aex-gray-oracle-v1",
+  "dll_sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf",
+  "function_va": "0x1001ab60",
+  "format1_branch_va": "0x1001ab8e",
+  "emulator": {
+    "unicorn": "2.1.4",
+    "pefile": "2024.8.26"
+  },
+  "scope": "仅仿真格式1像素写入，不执行GIF加载或原版客户端",
+  "formula": "(R+G+B)//3",
+  "sample_count": 1026,
+  "all_channel_sums_covered": [
+    0,
+    765
+  ],
+  "all_values_match": true,
+  "native_output_sha256": "1bc325a070cb89232ae931f59d38b65aa5352b0484f2712d35eacfbb3e0ea551",
+  "samples": [
+    {
+      "rgb": [
+        145,
+        145,
+        144
+      ],
+      "native_gray": 144
+    },
+    {
+      "rgb": [
+        1,
+        2,
+        3
+      ],
+      "native_gray": 2
+    },
+    {
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "native_gray": 85
+    },
+    {
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "native_gray": 85
+    }
+  ],
+  "rgb565_to_gray": {
+    "function_va": "0x1001dc10",
+    "input_count": 65536,
+    "all_values_match": true,
+    "native_output_sha256": "793391de56e93523fffedb1c49873999f4c252fa8bf03c6fc78a551432f7aa43",
+    "formula": "(((v>>8)&248)+((v>>3)&252)+((v<<3)&248))//3"
+  }
+}

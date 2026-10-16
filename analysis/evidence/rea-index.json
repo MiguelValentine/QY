@@ -1,0 +1,146 @@
+[
+  {
+    "label": "fcruner",
+    "path": "CLIENT/fcruner.exe",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "fcruner-headers.json",
+    "error": false
+  },
+  {
+    "label": "fcruner",
+    "path": "CLIENT/fcruner.exe",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "fcruner-disassembly.json",
+    "error": false
+  },
+  {
+    "label": "fcruner",
+    "path": "CLIENT/fcruner.exe",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "fcruner-resources.json",
+    "error": false
+  },
+  {
+    "label": "fbase",
+    "path": "CLIENT/fbase.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "fbase-headers.json",
+    "error": false
+  },
+  {
+    "label": "fbase",
+    "path": "CLIENT/fbase.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "fbase-disassembly.json",
+    "error": false
+  },
+  {
+    "label": "fbase",
+    "path": "CLIENT/fbase.dll",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "fbase-resources.json",
+    "error": false
+  },
+  {
+    "label": "objsys",
+    "path": "CLIENT/objsys.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "objsys-headers.json",
+    "error": false
+  },
+  {
+    "label": "objsys",
+    "path": "CLIENT/objsys.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "objsys-disassembly.json",
+    "error": false
+  },
+  {
+    "label": "objsys",
+    "path": "CLIENT/objsys.dll",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "objsys-resources.json",
+    "error": false
+  },
+  {
+    "label": "showdown",
+    "path": "CLIENT/service/templeflower/bin/showdown.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "showdown-headers.json",
+    "error": false
+  },
+  {
+    "label": "showdown",
+    "path": "CLIENT/service/templeflower/bin/showdown.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "showdown-disassembly.json",
+    "error": false
+  },
+  {
+    "label": "showdown",
+    "path": "CLIENT/service/templeflower/bin/showdown.dll",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "showdown-resources.json",
+    "error": false
+  },
+  {
+    "label": "pacmandll",
+    "path": "CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "pacmandll-headers.json",
+    "error": false
+  },
+  {
+    "label": "pacmandll",
+    "path": "CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "pacmandll-disassembly.json",
+    "error": false
+  },
+  {
+    "label": "pacmandll",
+    "path": "CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "pacmandll-resources.json",
+    "error": false
+  },
+  {
+    "label": "launcher",
+    "path": "CLIENT/帅哥奇域.EXE",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "launcher-headers.json",
+    "error": false
+  },
+  {
+    "label": "launcher",
+    "path": "CLIENT/帅哥奇域.EXE",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "launcher-disassembly.json",
+    "error": false
+  },
+  {
+    "label": "launcher",
+    "path": "CLIENT/帅哥奇域.EXE",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "launcher-resources.json",
+    "error": false
+  }
+]

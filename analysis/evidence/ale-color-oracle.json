@@ -1,0 +1,66 @@
+{
+  "schema": "fbase-ale-color-oracle-v1",
+  "dll": "CLIENT/fbase.dll",
+  "dll_sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf",
+  "function_va": "0x1001ab10",
+  "emulator": {
+    "unicorn": "2.1.4",
+    "pefile": "2024.8.26",
+    "instruction_limit": 8000000
+  },
+  "calling_convention": {
+    "stack_args": [
+      "目标指针",
+      "目标行余量（字节）",
+      "来源指针",
+      "来源行余量（字节）",
+      "每行像素数",
+      "行数"
+    ],
+    "test_dimensions": [
+      65536,
+      1
+    ]
+  },
+  "conversion": {
+    "source": "格式4，RGB565，小端u16",
+    "destination": "格式7，32位颜色，小端BGRA",
+    "expected_channels": {
+      "red": "(raw_u16 >> 8) & 0xf8",
+      "green": "(raw_u16 >> 3) & 0xfc",
+      "blue": "(raw_u16 << 3) & 0xf8",
+      "alpha": "0xff"
+    },
+    "low_bits_expanded_by_replication": false
+  },
+  "verification": {
+    "input_values": 65536,
+    "all_values_match": true,
+    "mismatch_count": 0,
+    "native_output_sha256": "8e661678d463a3920aa7ce057cb1726ec4c9be0d27d8834034c2890a554f381c",
+    "expected_output_sha256": "8e661678d463a3920aa7ce057cb1726ec4c9be0d27d8834034c2890a554f381c",
+    "mismatches": [],
+    "samples": [
+      {
+        "raw_u16": "0x0000",
+        "native_bgra_hex": "000000ff"
+      },
+      {
+        "raw_u16": "0x001f",
+        "native_bgra_hex": "f80000ff"
+      },
+      {
+        "raw_u16": "0x07e0",
+        "native_bgra_hex": "00fc00ff"
+      },
+      {
+        "raw_u16": "0xf800",
+        "native_bgra_hex": "0000f8ff"
+      },
+      {
+        "raw_u16": "0xffff",
+        "native_bgra_hex": "f8fcf8ff"
+      }
+    ]
+  }
+}

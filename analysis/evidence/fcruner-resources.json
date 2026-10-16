@@ -1,0 +1,879 @@
+{
+  "_meta": {
+    "provenance": {
+      "untrusted_content": true,
+      "source": "analysis_target"
+    }
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_ed3f9e6441ab9f5accf8823a78535910921ec8baeba167e4ce2067d000508da1\",\"subject\":{\"name\":\"fcruner.exe\",\"digest\":{\"sha256\":\"76f1a1178a0d74f568421aa30249ea259952ddda4960d4b65c2d0f9cde949e1c\"},\"local_path\":\"/Users/miguel/Desktop/QY/CLIENT/fcruner.exe\",\"format\":\"pe\",\"architecture\":null},\"provider\":{\"id\":\"rea-pe-resources\",\"name\":\"REA PE resource parser\",\"version\":\"1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_pe_resources\",\"parameters\":{\"path\":\"/Users/miguel/Desktop/QY/CLIENT/fcruner.exe\",\"max_file_bytes\":67108864,\"max_entries\":16384},\"raw_result\":null,\"normalized_result\":{\"artifact\":{\"path\":\"/Users/miguel/Desktop/QY/CLIENT/fcruner.exe\",\"sha256\":\"76f1a1178a0d74f568421aa30249ea259952ddda4960d4b65c2d0f9cde949e1c\",\"bytes\":81920},\"format\":\"pe32\",\"machine\":332,\"directory\":{\"rva\":81920,\"location\":{\"offset\":69632,\"bytes\":11016},\"data_directory_location\":{\"offset\":376,\"bytes\":8}},\"directories\":[{\"location\":{\"offset\":69632,\"bytes\":56},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":5},{\"location\":{\"offset\":69688,\"bytes\":56},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":5},{\"location\":{\"offset\":69856,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69880,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69904,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69928,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69952,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69744,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69976,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69768,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":70000,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69792,\"bytes\":40},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":3},{\"location\":{\"offset\":70024,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":70048,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":70072,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":69832,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":70096,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1}],\"resources\":[{\"index\":0,\"type\":{\"kind\":\"id\",\"id\":3},\"name\":{\"kind\":\"id\",\"id\":1},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69648,\"bytes\":8},{\"offset\":69704,\"bytes\":8},{\"offset\":69872,\"bytes\":8}],\"data_entry_location\":{\"offset\":70120,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":82592,\"location\":{\"offset\":70304,\"bytes\":872},\"sha256\":\"2a6c773397b54fa8c48d343af22156209ded7ae7f8b25a7f2395d2157949ba7e\"}},{\"index\":1,\"type\":{\"kind\":\"id\",\"id\":3},\"name\":{\"kind\":\"id\",\"id\":2},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69648,\"bytes\":8},{\"offset\":69712,\"bytes\":8},{\"offset\":69896,\"bytes\":8}],\"data_entry_location\":{\"offset\":70136,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":83464,\"location\":{\"offset\":71176,\"bytes\":3240},\"sha256\":\"b97e07bf759430b9c4b9ad62841e1694a889087af236984595270228f0ed39a5\"}},{\"index\":2,\"type\":{\"kind\":\"id\",\"id\":3},\"name\":{\"kind\":\"id\",\"id\":3},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69648,\"bytes\":8},{\"offset\":69720,\"bytes\":8},{\"offset\":69920,\"bytes\":8}],\"data_entry_location\":{\"offset\":70152,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":86744,\"location\":{\"offset\":74456,\"bytes\":872},\"sha256\":\"0509267a49e7d93ee7af755271f8fe2e31adb1ebd78384c5e715e4f81f09c7d0\"}},{\"index\":3,\"type\":{\"kind\":\"id\",\"id\":3},\"name\":{\"kind\":\"id\",\"id\":4},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69648,\"bytes\":8},{\"offset\":69728,\"bytes\":8},{\"offset\":69944,\"bytes\":8}],\"data_entry_location\":{\"offset\":70168,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":87616,\"location\":{\"offset\":75328,\"bytes\":3240},\"sha256\":\"e43aca7551cdfe0f354f65b4dbb6ab4f34c18e4d596b3bddede8b660ae13c08f\"}},{\"index\":4,\"type\":{\"kind\":\"id\",\"id\":3},\"name\":{\"kind\":\"id\",\"id\":5},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69648,\"bytes\":8},{\"offset\":69736,\"bytes\":8},{\"offset\":69968,\"bytes\":8}],\"data_entry_location\":{\"offset\":70184,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":90896,\"location\":{\"offset\":78608,\"bytes\":744},\"sha256\":\"e2e0bb3c16f84bb4895644ffa62cd52711c693f25924e121746cf817c37e6175\"}},{\"index\":5,\"type\":{\"kind\":\"id\",\"id\":5},\"name\":{\"kind\":\"id\",\"id\":135},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69656,\"bytes\":8},{\"offset\":69760,\"bytes\":8},{\"offset\":69992,\"bytes\":8}],\"data_entry_location\":{\"offset\":70200,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":92568,\"location\":{\"offset\":80280,\"bytes\":266},\"sha256\":\"8928748eba75f36e2bf6698b51ad0ac42ab272f9b74ca39d819c7fdabf107737\"}},{\"index\":6,\"type\":{\"kind\":\"id\",\"id\":6},\"name\":{\"kind\":\"id\",\"id\":7},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69664,\"bytes\":8},{\"offset\":69784,\"bytes\":8},{\"offset\":70016,\"bytes\":8}],\"data_entry_location\":{\"offset\":70216,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":92840,\"location\":{\"offset\":80552,\"bytes\":90},\"sha256\":\"dfea83598875ae2c7b62570bf5e73c6264fdfb171a36dfbe756e317b4d51e420\"}},{\"index\":7,\"type\":{\"kind\":\"id\",\"id\":14},\"name\":{\"kind\":\"id\",\"id\":107},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69672,\"bytes\":8},{\"offset\":69808,\"bytes\":8},{\"offset\":70040,\"bytes\":8}],\"data_entry_location\":{\"offset\":70232,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":86704,\"location\":{\"offset\":74416,\"bytes\":34},\"sha256\":\"f588ba66d920fa9b3ad5af4bf6ecfa12b487a53c02f9e93558f844847f7f6be7\"}},{\"index\":8,\"type\":{\"kind\":\"id\",\"id\":14},\"name\":{\"kind\":\"id\",\"id\":129},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69672,\"bytes\":8},{\"offset\":69816,\"bytes\":8},{\"offset\":70064,\"bytes\":8}],\"data_entry_location\":{\"offset\":70248,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":90856,\"location\":{\"offset\":78568,\"bytes\":34},\"sha256\":\"9a3dd0eb77b873bab39219808ce6f0bbe27227ab89d10ffaee4c2636281359df\"}},{\"index\":9,\"type\":{\"kind\":\"id\",\"id\":14},\"name\":{\"kind\":\"id\",\"id\":130},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69672,\"bytes\":8},{\"offset\":69824,\"bytes\":8},{\"offset\":70088,\"bytes\":8}],\"data_entry_location\":{\"offset\":70264,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":91640,\"location\":{\"offset\":79352,\"bytes\":20},\"sha256\":\"7a08031f75135d4fae812d5b19935e247b73f02af232e35930c4c0ea355f10d2\"}},{\"index\":10,\"type\":{\"kind\":\"id\",\"id\":16},\"name\":{\"kind\":\"id\",\"id\":1},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":69680,\"bytes\":8},{\"offset\":69848,\"bytes\":8},{\"offset\":70112,\"bytes\":8}],\"data_entry_location\":{\"offset\":70280,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":91664,\"location\":{\"offset\":79376,\"bytes\":900},\"sha256\":\"d2ce38bdf19a36dd0ca09240038b9d9795d9aa7a487253d2cd4f371173e38d30\"}}],\"icon_groups\":[{\"resource_index\":7,\"images\":[{\"location\":{\"offset\":74422,\"bytes\":14},\"width\":16,\"height\":16,\"color_count\":0,\"reserved\":0,\"planes\":1,\"bit_count\":24,\"declared_bytes\":872,\"resource_id\":1,\"candidate_resource_indices\":[0],\"same_language_resource_index\":0,\"size_matches\":true},{\"location\":{\"offset\":74436,\"bytes\":14},\"width\":32,\"height\":32,\"color_count\":0,\"reserved\":0,\"planes\":1,\"bit_count\":24,\"declared_bytes\":3240,\"resource_id\":2,\"candidate_resource_indices\":[1],\"same_language_resource_index\":1,\"size_matches\":true}]},{\"resource_index\":8,\"images\":[{\"location\":{\"offset\":78574,\"bytes\":14},\"width\":16,\"height\":16,\"color_count\":0,\"reserved\":0,\"planes\":1,\"bit_count\":24,\"declared_bytes\":872,\"resource_id\":3,\"candidate_resource_indices\":[2],\"same_language_resource_index\":2,\"size_matches\":true},{\"location\":{\"offset\":78588,\"bytes\":14},\"width\":32,\"height\":32,\"color_count\":0,\"reserved\":0,\"planes\":1,\"bit_count\":24,\"declared_bytes\":3240,\"resource_id\":4,\"candidate_resource_indices\":[3],\"same_language_resource_index\":3,\"size_matches\":true}]},{\"resource_index\":9,\"images\":[{\"location\":{\"offset\":79358,\"bytes\":14},\"width\":32,\"height\":32,\"color_count\":16,\"reserved\":0,\"planes\":1,\"bit_count\":4,\"declared_bytes\":744,\"resource_id\":5,\"candidate_resource_indices\":[4],\"same_language_resource_index\":4,\"size_matches\":true}]}],\"coverage\":{\"status\":\"complete\",\"examined_entries\":27,\"resources\":11},\"limitations\":[\"Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.\",\"Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.\",\"Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected.\"]},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.\",\"Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.\",\"Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected.\"],\"relationship_coverage\":null,\"locations\":[{\"kind\":\"artifact-path\",\"path\":\"/Users/miguel/Desktop/QY/CLIENT/fcruner.exe\"}],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_ed3f9e6441ab9f5accf8823a78535910921ec8baeba167e4ce2067d000508da1",
+    "subject": {
+      "name": "fcruner.exe",
+      "digest": {
+        "sha256": "76f1a1178a0d74f568421aa30249ea259952ddda4960d4b65c2d0f9cde949e1c"
+      },
+      "local_path": "/Users/miguel/Desktop/QY/CLIENT/fcruner.exe",
+      "format": "pe",
+      "architecture": null
+    },
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_pe_resources",
+    "parameters": {
+      "path": "/Users/miguel/Desktop/QY/CLIENT/fcruner.exe",
+      "max_file_bytes": 67108864,
+      "max_entries": 16384
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "artifact": {
+        "path": "/Users/miguel/Desktop/QY/CLIENT/fcruner.exe",
+        "sha256": "76f1a1178a0d74f568421aa30249ea259952ddda4960d4b65c2d0f9cde949e1c",
+        "bytes": 81920
+      },
+      "format": "pe32",
+      "machine": 332,
+      "directory": {
+        "rva": 81920,
+        "location": {
+          "offset": 69632,
+          "bytes": 11016
+        },
+        "data_directory_location": {
+          "offset": 376,
+          "bytes": 8
+        }
+      },
+      "directories": [
+        {
+          "location": {
+            "offset": 69632,
+            "bytes": 56
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 5
+        },
+        {
+          "location": {
+            "offset": 69688,
+            "bytes": 56
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 5
+        },
+        {
+          "location": {
+            "offset": 69856,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69880,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69904,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69928,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69952,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69744,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69976,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69768,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 70000,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69792,
+            "bytes": 40
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 3
+        },
+        {
+          "location": {
+            "offset": 70024,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 70048,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 70072,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 69832,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 70096,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        }
+      ],
+      "resources": [
+        {
+          "index": 0,
+          "type": {
+            "kind": "id",
+            "id": 3
+          },
+          "name": {
+            "kind": "id",
+            "id": 1
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69648,
+              "bytes": 8
+            },
+            {
+              "offset": 69704,
+              "bytes": 8
+            },
+            {
+              "offset": 69872,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70120,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 82592,
+            "location": {
+              "offset": 70304,
+              "bytes": 872
+            },
+            "sha256": "2a6c773397b54fa8c48d343af22156209ded7ae7f8b25a7f2395d2157949ba7e"
+          }
+        },
+        {
+          "index": 1,
+          "type": {
+            "kind": "id",
+            "id": 3
+          },
+          "name": {
+            "kind": "id",
+            "id": 2
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69648,
+              "bytes": 8
+            },
+            {
+              "offset": 69712,
+              "bytes": 8
+            },
+            {
+              "offset": 69896,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70136,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 83464,
+            "location": {
+              "offset": 71176,
+              "bytes": 3240
+            },
+            "sha256": "b97e07bf759430b9c4b9ad62841e1694a889087af236984595270228f0ed39a5"
+          }
+        },
+        {
+          "index": 2,
+          "type": {
+            "kind": "id",
+            "id": 3
+          },
+          "name": {
+            "kind": "id",
+            "id": 3
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69648,
+              "bytes": 8
+            },
+            {
+              "offset": 69720,
+              "bytes": 8
+            },
+            {
+              "offset": 69920,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70152,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 86744,
+            "location": {
+              "offset": 74456,
+              "bytes": 872
+            },
+            "sha256": "0509267a49e7d93ee7af755271f8fe2e31adb1ebd78384c5e715e4f81f09c7d0"
+          }
+        },
+        {
+          "index": 3,
+          "type": {
+            "kind": "id",
+            "id": 3
+          },
+          "name": {
+            "kind": "id",
+            "id": 4
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69648,
+              "bytes": 8
+            },
+            {
+              "offset": 69728,
+              "bytes": 8
+            },
+            {
+              "offset": 69944,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70168,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 87616,
+            "location": {
+              "offset": 75328,
+              "bytes": 3240
+            },
+            "sha256": "e43aca7551cdfe0f354f65b4dbb6ab4f34c18e4d596b3bddede8b660ae13c08f"
+          }
+        },
+        {
+          "index": 4,
+          "type": {
+            "kind": "id",
+            "id": 3
+          },
+          "name": {
+            "kind": "id",
+            "id": 5
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69648,
+              "bytes": 8
+            },
+            {
+              "offset": 69736,
+              "bytes": 8
+            },
+            {
+              "offset": 69968,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70184,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 90896,
+            "location": {
+              "offset": 78608,
+              "bytes": 744
+            },
+            "sha256": "e2e0bb3c16f84bb4895644ffa62cd52711c693f25924e121746cf817c37e6175"
+          }
+        },
+        {
+          "index": 5,
+          "type": {
+            "kind": "id",
+            "id": 5
+          },
+          "name": {
+            "kind": "id",
+            "id": 135
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69656,
+              "bytes": 8
+            },
+            {
+              "offset": 69760,
+              "bytes": 8
+            },
+            {
+              "offset": 69992,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70200,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 92568,
+            "location": {
+              "offset": 80280,
+              "bytes": 266
+            },
+            "sha256": "8928748eba75f36e2bf6698b51ad0ac42ab272f9b74ca39d819c7fdabf107737"
+          }
+        },
+        {
+          "index": 6,
+          "type": {
+            "kind": "id",
+            "id": 6
+          },
+          "name": {
+            "kind": "id",
+            "id": 7
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69664,
+              "bytes": 8
+            },
+            {
+              "offset": 69784,
+              "bytes": 8
+            },
+            {
+              "offset": 70016,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70216,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 92840,
+            "location": {
+              "offset": 80552,
+              "bytes": 90
+            },
+            "sha256": "dfea83598875ae2c7b62570bf5e73c6264fdfb171a36dfbe756e317b4d51e420"
+          }
+        },
+        {
+          "index": 7,
+          "type": {
+            "kind": "id",
+            "id": 14
+          },
+          "name": {
+            "kind": "id",
+            "id": 107
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69672,
+              "bytes": 8
+            },
+            {
+              "offset": 69808,
+              "bytes": 8
+            },
+            {
+              "offset": 70040,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70232,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 86704,
+            "location": {
+              "offset": 74416,
+              "bytes": 34
+            },
+            "sha256": "f588ba66d920fa9b3ad5af4bf6ecfa12b487a53c02f9e93558f844847f7f6be7"
+          }
+        },
+        {
+          "index": 8,
+          "type": {
+            "kind": "id",
+            "id": 14
+          },
+          "name": {
+            "kind": "id",
+            "id": 129
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69672,
+              "bytes": 8
+            },
+            {
+              "offset": 69816,
+              "bytes": 8
+            },
+            {
+              "offset": 70064,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70248,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 90856,
+            "location": {
+              "offset": 78568,
+              "bytes": 34
+            },
+            "sha256": "9a3dd0eb77b873bab39219808ce6f0bbe27227ab89d10ffaee4c2636281359df"
+          }
+        },
+        {
+          "index": 9,
+          "type": {
+            "kind": "id",
+            "id": 14
+          },
+          "name": {
+            "kind": "id",
+            "id": 130
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69672,
+              "bytes": 8
+            },
+            {
+              "offset": 69824,
+              "bytes": 8
+            },
+            {
+              "offset": 70088,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70264,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 91640,
+            "location": {
+              "offset": 79352,
+              "bytes": 20
+            },
+            "sha256": "7a08031f75135d4fae812d5b19935e247b73f02af232e35930c4c0ea355f10d2"
+          }
+        },
+        {
+          "index": 10,
+          "type": {
+            "kind": "id",
+            "id": 16
+          },
+          "name": {
+            "kind": "id",
+            "id": 1
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 69680,
+              "bytes": 8
+            },
+            {
+              "offset": 69848,
+              "bytes": 8
+            },
+            {
+              "offset": 70112,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 70280,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 91664,
+            "location": {
+              "offset": 79376,
+              "bytes": 900
+            },
+            "sha256": "d2ce38bdf19a36dd0ca09240038b9d9795d9aa7a487253d2cd4f371173e38d30"
+          }
+        }
+      ],
+      "icon_groups": [
+        {
+          "resource_index": 7,
+          "images": [
+            {
+              "location": {
+                "offset": 74422,
+                "bytes": 14
+              },
+              "width": 16,
+              "height": 16,
+              "color_count": 0,
+              "reserved": 0,
+              "planes": 1,
+              "bit_count": 24,
+              "declared_bytes": 872,
+              "resource_id": 1,
+              "candidate_resource_indices": [
+                0
+              ],
+              "same_language_resource_index": 0,
+              "size_matches": true
+            },
+            {
+              "location": {
+                "offset": 74436,
+                "bytes": 14
+              },
+              "width": 32,
+              "height": 32,
+              "color_count": 0,
+              "reserved": 0,
+              "planes": 1,
+              "bit_count": 24,
+              "declared_bytes": 3240,
+              "resource_id": 2,
+              "candidate_resource_indices": [
+                1
+              ],
+              "same_language_resource_index": 1,
+              "size_matches": true
+            }
+          ]
+        },
+        {
+          "resource_index": 8,
+          "images": [
+            {
+              "location": {
+                "offset": 78574,
+                "bytes": 14
+              },
+              "width": 16,
+              "height": 16,
+              "color_count": 0,
+              "reserved": 0,
+              "planes": 1,
+              "bit_count": 24,
+              "declared_bytes": 872,
+              "resource_id": 3,
+              "candidate_resource_indices": [
+                2
+              ],
+              "same_language_resource_index": 2,
+              "size_matches": true
+            },
+            {
+              "location": {
+                "offset": 78588,
+                "bytes": 14
+              },
+              "width": 32,
+              "height": 32,
+              "color_count": 0,
+              "reserved": 0,
+              "planes": 1,
+              "bit_count": 24,
+              "declared_bytes": 3240,
+              "resource_id": 4,
+              "candidate_resource_indices": [
+                3
+              ],
+              "same_language_resource_index": 3,
+              "size_matches": true
+            }
+          ]
+        },
+        {
+          "resource_index": 9,
+          "images": [
+            {
+              "location": {
+                "offset": 79358,
+                "bytes": 14
+              },
+              "width": 32,
+              "height": 32,
+              "color_count": 16,
+              "reserved": 0,
+              "planes": 1,
+              "bit_count": 4,
+              "declared_bytes": 744,
+              "resource_id": 5,
+              "candidate_resource_indices": [
+                4
+              ],
+              "same_language_resource_index": 4,
+              "size_matches": true
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "examined_entries": 27,
+        "resources": 11
+      },
+      "limitations": [
+        "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+        "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+        "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "/Users/miguel/Desktop/QY/CLIENT/fcruner.exe"
+      }
+    ],
+    "evidence_links": []
+  }
+}

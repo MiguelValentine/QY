@@ -1,0 +1,170 @@
+{
+  "schema": "objsys-root-dispatch-oracle-v1",
+  "dll": "CLIENT/objsys.dll",
+  "dll_sha256": "dbd8eb9e3ce18a6043ab542b3ee5104c618828b8db28c8d8b11a1cf4c0429a98",
+  "emulator": {
+    "name": "Unicorn",
+    "version": "2.1.4",
+    "pefile_version": "2024.8.26",
+    "executed_native_addresses": [
+      "0x1005ad10",
+      "0x10060da0",
+      "0x10062136"
+    ]
+  },
+  "setup": {
+    "root_object": "在暂存区合成；首 DWORD 为选定 vtable，+0x1c68 为假 HWND 0x12345678",
+    "global_initialization": "将 0x10121ca0 预置为 1，以跳过一次性初始化路径",
+    "synthetic_vm_value": "测试专用布局 [kind=3, text_pointer]，不声称是真实 VM 对象布局",
+    "native_instruction_execution": "执行 0x1005ad10、虚调用及 0x10060da0 的原始指令",
+    "hook_model": [
+      "FBase ordinal #779 固定返回 3",
+      "FBase ordinal #808 按测试专用合成值布局填充临时对象",
+      "FBase ordinal #646 从测试专用临时对象取字符串指针",
+      "USER32!SetWindowTextA 只记录 HWND/文本并模拟 BOOL TRUE"
+    ]
+  },
+  "calling_convention": {
+    "this": "合成根对象指针放入 ECX",
+    "0x1005ad10_stack_arguments": [
+      "VM 值指针（由 0x10060da0 从原始调用栈读取）",
+      "hash 0xd53b302d（转发为虚方法第 1 参数）",
+      "VM 值指针（非零以走显式值分支）",
+      "0（转发为虚方法第 3 参数）"
+    ],
+    "return_cleanup": "0x1005ad10 原生 ret 0x10"
+  },
+  "results": [
+    {
+      "vtable": "0x100a39c0",
+      "vtable_slot_0x24": "0x10060da0",
+      "return_eax": "0x00000000",
+      "stopped_at": "0xdeadbeef",
+      "synthetic_vm_value_before_hex": "0300000000020071",
+      "synthetic_vm_value_after_hex": "0300000000020071",
+      "hook_calls": [
+        {
+          "api": "FBase ordinal #779",
+          "model": "固定返回合成值类型 3"
+        },
+        {
+          "api": "FBase ordinal #808",
+          "model": "将合成 VM 值中的字符串指针写入输出对象",
+          "output_object": "0x7000ef6c"
+        },
+        {
+          "api": "FBase ordinal #646",
+          "model": "从合成临时对象返回字符串字节指针"
+        },
+        {
+          "api": "FBase ordinal #637",
+          "model": "无操作清理 hook"
+        }
+      ],
+      "set_window_text": [
+        {
+          "hwnd": "0x12345678",
+          "text": "REA oracle title"
+        }
+      ],
+      "reached_dispatcher": true,
+      "reached_title_branch": true,
+      "dispatcher_hash": "0xd53b302d",
+      "last_addresses": [
+        "0x1006246a",
+        "0x72000040",
+        "0x10062470",
+        "0x10062472",
+        "0x10062479",
+        "0x1006247a",
+        "0x1006247b",
+        "0x1006247c",
+        "0x1006247d",
+        "0x10062484",
+        "0x1006248a",
+        "0x1005adf5",
+        "0x1005adf8",
+        "0x1005ae07",
+        "0x1005ae0a",
+        "0x1005ae10",
+        "0x1005ae16",
+        "0x1005ae19",
+        "0x1005ae20",
+        "0x1005ae21",
+        "0x1005ae22",
+        "0x1005ae23",
+        "0x1005ae25",
+        "0x1005ae26"
+      ]
+    },
+    {
+      "vtable": "0x100a3bb0",
+      "vtable_slot_0x24": "0x10060da0",
+      "return_eax": "0x00000000",
+      "stopped_at": "0xdeadbeef",
+      "synthetic_vm_value_before_hex": "0300000000020071",
+      "synthetic_vm_value_after_hex": "0300000000020071",
+      "hook_calls": [
+        {
+          "api": "FBase ordinal #779",
+          "model": "固定返回合成值类型 3"
+        },
+        {
+          "api": "FBase ordinal #808",
+          "model": "将合成 VM 值中的字符串指针写入输出对象",
+          "output_object": "0x7000ef6c"
+        },
+        {
+          "api": "FBase ordinal #646",
+          "model": "从合成临时对象返回字符串字节指针"
+        },
+        {
+          "api": "FBase ordinal #637",
+          "model": "无操作清理 hook"
+        }
+      ],
+      "set_window_text": [
+        {
+          "hwnd": "0x12345678",
+          "text": "REA oracle title"
+        }
+      ],
+      "reached_dispatcher": true,
+      "reached_title_branch": true,
+      "dispatcher_hash": "0xd53b302d",
+      "last_addresses": [
+        "0x1006246a",
+        "0x72000040",
+        "0x10062470",
+        "0x10062472",
+        "0x10062479",
+        "0x1006247a",
+        "0x1006247b",
+        "0x1006247c",
+        "0x1006247d",
+        "0x10062484",
+        "0x1006248a",
+        "0x1005adf5",
+        "0x1005adf8",
+        "0x1005ae07",
+        "0x1005ae0a",
+        "0x1005ae10",
+        "0x1005ae16",
+        "0x1005ae19",
+        "0x1005ae20",
+        "0x1005ae21",
+        "0x1005ae22",
+        "0x1005ae23",
+        "0x1005ae25",
+        "0x1005ae26"
+      ]
+    }
+  ],
+  "conclusion": {
+    "verified": true,
+    "failures": [],
+    "vm_value_unchanged_in_test_model": true,
+    "dispatcher_returned_zero": true,
+    "scope_limit": "证明该输入下原生分派指令到达标题分支；不证明完整 VM 兼容，也未创建真实 Windows 窗口。"
+  }
+}

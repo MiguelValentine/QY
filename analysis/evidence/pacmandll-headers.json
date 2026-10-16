@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "provenance": {
+      "untrusted_content": true,
+      "source": "analysis_target"
+    }
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_70e76cf0ca2438fa55193c3039a21e632340b5063a2099b9c5a336a0dfdb8b62\",\"subject\":{\"name\":\"pacmandll.dll\",\"digest\":{\"sha256\":\"7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2\"},\"local_path\":\"/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll\",\"format\":\"unknown\",\"architecture\":null},\"provider\":{\"id\":\"gnu.objdump\",\"name\":\"GNU objdump\",\"version\":null},\"analysis_profile\":null,\"predicate_type\":\"rea.reverse-engineering.command-observation\",\"operation\":\"inspect_with_objdump\",\"parameters\":{\"path\":\"/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll\",\"operation\":\"file_headers\",\"follow_debug_links\":false,\"provider_executable\":\"/opt/homebrew/opt/binutils/bin/gobjdump\",\"command_arguments\":[\"-f\",\"/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll\"]},\"raw_result\":{\"stdout\":\"\\n/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll:     file format pei-i386\\narchitecture: i386, flags 0x0000010b:\\nHAS_RELOC, EXEC_P, HAS_DEBUG, D_PAGED\\nstart address 0x1000633b\\n\\n\",\"stderr\":\"\",\"exit_code\":0,\"signal\":null,\"output_truncated\":false,\"completion_status\":\"complete\",\"artifact_sha256_after\":\"7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2\",\"artifact_changed\":false},\"normalized_result\":{\"stdout\":\"\\n/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll:     file format pei-i386\\narchitecture: i386, flags 0x0000010b:\\nHAS_RELOC, EXEC_P, HAS_DEBUG, D_PAGED\\nstart address 0x1000633b\\n\\n\",\"stderr\":\"\",\"exit_code\":0,\"signal\":null,\"output_truncated\":false,\"completion_status\":\"complete\",\"artifact_sha256_after\":\"7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2\",\"artifact_changed\":false},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The executable version and supported formats are reported as unknown because no reliable version probe was performed.\",\"A non-zero process exit is preserved as an observed command result.\",\"When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call.\"],\"relationship_coverage\":null,\"locations\":[{\"kind\":\"artifact-path\",\"path\":\"/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll\"}],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_70e76cf0ca2438fa55193c3039a21e632340b5063a2099b9c5a336a0dfdb8b62",
+    "subject": {
+      "name": "pacmandll.dll",
+      "digest": {
+        "sha256": "7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2"
+      },
+      "local_path": "/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+      "format": "unknown",
+      "architecture": null
+    },
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.reverse-engineering.command-observation",
+    "operation": "inspect_with_objdump",
+    "parameters": {
+      "path": "/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+      "operation": "file_headers",
+      "follow_debug_links": false,
+      "provider_executable": "/opt/homebrew/opt/binutils/bin/gobjdump",
+      "command_arguments": [
+        "-f",
+        "/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll"
+      ]
+    },
+    "raw_result": {
+      "stdout": "\n/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll:     file format pei-i386\narchitecture: i386, flags 0x0000010b:\nHAS_RELOC, EXEC_P, HAS_DEBUG, D_PAGED\nstart address 0x1000633b\n\n",
+      "stderr": "",
+      "exit_code": 0,
+      "signal": null,
+      "output_truncated": false,
+      "completion_status": "complete",
+      "artifact_sha256_after": "7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2",
+      "artifact_changed": false
+    },
+    "normalized_result": {
+      "stdout": "\n/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll:     file format pei-i386\narchitecture: i386, flags 0x0000010b:\nHAS_RELOC, EXEC_P, HAS_DEBUG, D_PAGED\nstart address 0x1000633b\n\n",
+      "stderr": "",
+      "exit_code": 0,
+      "signal": null,
+      "output_truncated": false,
+      "completion_status": "complete",
+      "artifact_sha256_after": "7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2",
+      "artifact_changed": false
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "/Users/miguel/Desktop/QY/CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll"
+      }
+    ],
+    "evidence_links": []
+  }
+}

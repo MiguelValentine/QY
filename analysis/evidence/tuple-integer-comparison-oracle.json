@@ -1,0 +1,42 @@
+{
+  "schema": "objsys-tuple-integer-comparison-oracle-v1",
+  "binaries": {
+    "objsys": {
+      "path": "CLIENT/objsys.dll",
+      "sha256": "dbd8eb9e3ce18a6043ab542b3ee5104c618828b8db28c8d8b11a1cf4c0429a98"
+    },
+    "fbase": {
+      "path": "CLIENT/fbase.dll",
+      "sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf"
+    }
+  },
+  "emulator": {
+    "name": "Unicorn",
+    "version": "2.1.4",
+    "pefile_version": "2024.8.26"
+  },
+  "setup": {
+    "native_handler_va": "0x10015770",
+    "stubbed_function": {
+      "va": "0x10012b50",
+      "behavior": "依次将指定左右类型写入operand输出值并返回成功"
+    },
+    "native_fbase_ordinals": [
+      779,
+      661
+    ],
+    "execution_boundary": "不执行DateCmp调用桥、完整表达式求值器或游戏窗口流程"
+  },
+  "input": {
+    "left_type": 6,
+    "right_type": 1
+  },
+  "result": {
+    "left_type": 6,
+    "right_type": 1,
+    "handler_return": 0,
+    "context_status": 8,
+    "operand_extractions": 2
+  },
+  "interpretation": "该隔离输入使原生handler返回运算失败，并在上下文写入状态8；它不是完整客户端运行结果。"
+}

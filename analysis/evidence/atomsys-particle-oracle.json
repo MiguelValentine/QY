@@ -1,0 +1,231 @@
+{
+  "schema": "objsys-atomsys-particle-oracle-v1",
+  "binary": {
+    "path": "CLIENT/objsys.dll",
+    "sha256": "dbd8eb9e3ce18a6043ab542b3ee5104c618828b8db28c8d8b11a1cf4c0429a98"
+  },
+  "emulator": {
+    "name": "Unicorn",
+    "version": "2.1.4",
+    "pefile_version": "2024.8.26"
+  },
+  "fpu_control_word": {
+    "new_uc_initial_value": "由本次新建 Unicorn 实例读取",
+    "comparison_values": [
+      "0x027f",
+      "0x037f"
+    ],
+    "scope": "仅比较显式仿真控制字条件；原始 CRT 未初始化控制字，Unicorn 初值不代表原版 Windows 进程的实际 FPU 状态。"
+  },
+  "setup": {
+    "native_functions": {
+      "initialize": "0x1001f940",
+      "add_velocity": "0x1001fc50",
+      "advance": "0x10020630"
+    },
+    "advance_stack_convention": "advance 接收三个栈参数；首参数在推进代码中未使用，加速度 x/y 分别位于第二、第三参数。",
+    "random_hook": {
+      "va": "0x1008787f",
+      "values": [
+        0
+      ],
+      "behavior": "按序返回给定整数并模拟 ret"
+    },
+    "split_hooks": {
+      "particle_pool_allocator": "0x1001fd60",
+      "register_child_iat": "0x1009d4f0",
+      "behavior": "粒子池分配 hook 返回独立预分配内存；IAT #513 hook 记录新粒子指针并模拟 ret 8"
+    },
+    "execution_boundary": "执行原生初始化、加速、未分裂推进、一次分裂推进及非零加速度推进；用粒子池分配和 IAT #513 hook 隔离新子粒子，未覆盖 atomsys 完整更新循环。"
+  },
+  "input": {
+    "initialize_arguments": [
+      12,
+      -7,
+      30,
+      37,
+      100,
+      85,
+      10
+    ],
+    "add_velocity_arguments": [
+      14,
+      123
+    ],
+    "advance_acceleration": [
+      0,
+      0
+    ]
+  },
+  "result": {
+    "initial": {
+      "x": 12.0,
+      "y": -7.0,
+      "vx": 2.395906448364258,
+      "vy": -1.8054450750350952,
+      "life": 100,
+      "split": 10,
+      "drag": 0.8499999642372131
+    },
+    "after_add_velocity": {
+      "x": 12.0,
+      "y": -7.0,
+      "vx": 1.6334117650985718,
+      "vy": -2.979583978652954,
+      "life": 100,
+      "split": 10,
+      "drag": 0.8499999642372131
+    },
+    "after_advance": {
+      "x": 13.633411407470703,
+      "y": -9.979583740234375,
+      "vx": 1.3883999586105347,
+      "vy": -2.5326461791992188,
+      "life": 92,
+      "split": 10,
+      "drag": 0.8499999642372131
+    },
+    "random_values_consumed": 1,
+    "initial_fpu_control_word": "0x0000",
+    "split_scenario": {
+      "initialize_arguments": [
+        12,
+        -7,
+        0,
+        0,
+        100,
+        85,
+        93
+      ],
+      "random_values": [
+        0,
+        0,
+        200,
+        3,
+        45,
+        5,
+        90,
+        7
+      ],
+      "random_values_consumed": [
+        0,
+        0,
+        200,
+        3,
+        45,
+        5,
+        90,
+        7
+      ],
+      "parent_initial": {
+        "x": 12.0,
+        "y": -7.0,
+        "vx": 0.0,
+        "vy": -0.0,
+        "life": 100,
+        "split": 93,
+        "drag": 0.8499999642372131
+      },
+      "parent_after_advance": {
+        "x": 12.0,
+        "y": -7.0,
+        "vx": 1.0409498246973927e-16,
+        "vy": -1.7000000476837158,
+        "life": 69,
+        "split": -1,
+        "drag": 0.8499999642372131
+      },
+      "children": [
+        {
+          "address": "0x21000000",
+          "x": 12.0,
+          "y": -7.0,
+          "vx": 1.0606602430343628,
+          "vy": -1.0606602430343628,
+          "life": 234,
+          "split": 13,
+          "drag": 0.8499999642372131
+        }
+      ],
+      "allocated_child_addresses": [
+        "0x21000000"
+      ],
+      "registered_child_addresses": [
+        "0x21000000"
+      ]
+    },
+    "acceleration_scenario": {
+      "initialize_arguments": [
+        12,
+        -7,
+        30,
+        37,
+        100,
+        85,
+        10
+      ],
+      "advance_acceleration": [
+        0.12345679,
+        -0.9876543
+      ],
+      "random_values": [
+        0
+      ],
+      "random_values_consumed": [
+        0
+      ],
+      "initial": {
+        "x": 12.0,
+        "y": -7.0,
+        "vx": 2.395906448364258,
+        "vy": -1.8054450750350952,
+        "life": 100,
+        "split": 10,
+        "drag": 0.8499999642372131
+      },
+      "after_advance": {
+        "x": 14.395906448364258,
+        "y": -8.805444717407227,
+        "vx": 2.1599771976470947,
+        "vy": -2.522282600402832,
+        "life": 92,
+        "split": 10,
+        "drag": 0.8499999642372131
+      }
+    },
+    "fpu_control_word_comparison": [
+      {
+        "control_word": "0x027f",
+        "random_values_consumed": [
+          0
+        ],
+        "after_advance": {
+          "x": 14.395906448364258,
+          "y": -8.805444717407227,
+          "vx": 2.1599771976470947,
+          "vy": -2.522282600402832,
+          "life": 92,
+          "split": 10,
+          "drag": 0.8499999642372131
+        },
+        "same_as_default_output": true
+      },
+      {
+        "control_word": "0x037f",
+        "random_values_consumed": [
+          0
+        ],
+        "after_advance": {
+          "x": 14.395906448364258,
+          "y": -8.805444717407227,
+          "vx": 2.1599771976470947,
+          "vy": -2.522282600402832,
+          "life": 92,
+          "split": 10,
+          "drag": 0.8499999642372131
+        },
+        "same_as_default_output": true
+      }
+    ]
+  }
+}

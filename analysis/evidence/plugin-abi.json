@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "scope": "Static PE and annotated-disassembly evidence only; no target was executed.",
+  "sources": [
+    "analysis/evidence/pe-inventory.json",
+    "analysis/disassembly/objsys.annotated.asm",
+    "analysis/disassembly/pacmandll.annotated.asm",
+    "analysis/disassembly/showdown.annotated.asm",
+    "CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "CLIENT/service/templeflower/bin/showdown.dll"
+  ],
+  "host_version_check": {
+    "observations": [
+      {
+        "claim": "The host resolves GetPlugHead, calls it with 0xD1, treats a null result as an error, then reads the dword at returned_header+4 and rejects values below 0xC8 (200).",
+        "evidence": {
+          "file": "analysis/disassembly/objsys.annotated.asm",
+          "lines": [9652, 9673, 9686, 9687, 9700]
+        }
+      },
+      {
+        "claim": "A second host loader path performs the same 0xC8 minimum check after calling GetPlugHead(0xD1).",
+        "evidence": {
+          "file": "analysis/disassembly/objsys.annotated.asm",
+          "lines": [9769, 9782, 9796, 9797, 9808]
+        }
+      },
+      {
+        "claim": "The host resolves GetUserClassInfo and calls it with 0xD1 plus a buffer; its return is checked as signed nonnegative, not compared against 0xD1.",
+        "evidence": {
+          "file": "analysis/disassembly/objsys.annotated.asm",
+          "lines": [128399, 128440, 128448, 128450, 128451]
+        }
+      }
+    ],
+    "interpretation": "0xC8 is directly evidenced as the minimum header version accepted by these host paths. The semantic purpose of the GetUserClassInfo 0xD1 argument is not resolved here."
+  },
+  "plugins": [
+    {
+      "path": "service/onepusonenew/game/pacman/bin/pacmandll.dll",
+      "entry_point": {
+        "rva": "0x633b",
+        "va": "0x1000633b",
+        "note": "PE entry point from pe-inventory.json; not identified as the plugin ABI initializer."
+      },
+      "exports": {
+        "GetPlugHead": {
+          "ordinal": 1,
+          "va": "0x100053c0",
+          "returns_pointer_va": "0x1000f098",
+          "evidence": "analysis/disassembly/pacmandll.annotated.asm:6947-6949"
+        },
+        "GetUserClassInfo": {
+          "ordinal": 2,
+          "va": "0x100053d0",
+          "behavior": [
+            "If the registration count is below 1, calls registration helper 0x10005380.",
+            "Copies a null-terminated class-name list from 0x1000fb08 to the second stack argument.",
+            "Returns 0xC8 (200) in EAX."
+          ],
+          "evidence": "analysis/disassembly/pacmandll.annotated.asm:6960-6974"
+        }
+      },
+      "returned_header": {
+        "file_offset": "0xf098",
+        "size_bytes": 40,
+        "fields": [
+          {
+            "offset": "0x00",
+            "raw_value": "0x00000028",
+            "observation": "Header contains 0x28 (40).",
+            "interpretation": "Likely structure size; field meaning inferred, not named in the binary."
+          },
+          {
+            "offset": "0x04",
+            "raw_value": "0x000000c8",
+            "observation": "Header contains version-like value 200; host checks this value against minimum 200."
+          },
+          {
+            "offset": "0x08",
+            "raw_value": "0x1000c268",
+            "string": "UserDll Test 1.00",
+            "observation": "Pointer resolves to the ASCII string in the plugin image."
+          },
+          {
+            "offset": "0x0c",
+            "raw_value": "0x10005440",
+            "observation": "Routine selects a registered hash, invokes its stored creator, then calls the created object's vtable+4.",
+            "interpretation": "Class lookup/creation callback; exact ABI field name is unknown."
+          },
+          {
+            "offset": "0x10",
+            "raw_value": "0x10005320",
+            "observation": "Thunk jumps through the object vtable entry at offset 0."
+          },
+          {
+            "offset": "0x14",
+            "raw_value": "0x10005330",
+            "observation": "Thunk calls through object vtable+8."
+          },
+          {
+            "offset": "0x18",
+            "raw_value": "0x10005350",
+            "observation": "Thunk calls through object vtable+0x10."
+          },
+          {
+            "offset": "0x1c",
+            "raw_value": "0x10005370",
+            "observation": "Thunk calls through object vtable+0x0c."
+          },
+          {
+            "offset": "0x20",
+            "raw_value": "0x00000000",
+            "observation": "Null in on-disk header; host later writes a callback pointer at this offset."
+          },
+          {
+            "offset": "0x24",
+            "raw_value": "0x00000000",
+            "observation": "Null in on-disk header; host later writes a callback pointer at this offset."
+          }
+        ],
+        "evidence": [
+          "CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll:file offset 0xf098 (40 bytes)",
+          "analysis/disassembly/pacmandll.annotated.asm:6947-6949",
+          "analysis/disassembly/pacmandll.annotated.asm:7010-7039",
+          "analysis/disassembly/objsys.annotated.asm:9700-9703"
+        ]
+      },
+      "class_registration": {
+        "trigger_va": "0x10005380",
+        "trigger": "Lazy path from GetUserClassInfo when registration count is below 1.",
+        "registrar_helper_va": "0x100052a0",
+        "classes": [
+          {
+            "name": "CPacManItemSys",
+            "hash": "0xe742395e",
+            "creator_va": "0x10001e80"
+          },
+          {
+            "name": "CPacManMapSys",
+            "hash": "0x6763a5a2",
+            "creator_va": "0x10004a90"
+          },
+          {
+            "name": "CPacManCoinSys",
+            "hash": "0x6b4f50bc",
+            "creator_va": "0x10002cc0"
+          }
+        ],
+        "evidence": "analysis/disassembly/pacmandll.annotated.asm:6828-6873, 6933-6945",
+        "inference": "The names and creator addresses are passed together to a helper that stores the name, hash, and creator in indexed tables; these creator routines are treated as class factories based on their use."
+      },
+      "runtime_patched_slots": {
+        "observation": "The host writes callback addresses into header offsets 0x20 and 0x24 after version validation.",
+        "evidence": "analysis/disassembly/objsys.annotated.asm:9700-9703",
+        "unknown": "The callback semantics and why the slots are null on disk are not resolved."
+      }
+    },
+    {
+      "path": "service/templeflower/bin/showdown.dll",
+      "entry_point": {
+        "rva": "0x2827",
+        "va": "0x10002827",
+        "note": "PE entry point from pe-inventory.json; not identified as the plugin ABI initializer."
+      },
+      "exports": {
+        "GetPlugHead": {
+          "ordinal": 1,
+          "va": "0x10001130",
+          "returns_pointer_va": "0x10045050",
+          "evidence": "analysis/disassembly/showdown.annotated.asm:141-143"
+        },
+        "GetUserClassInfo": {
+          "ordinal": 2,
+          "va": "0x10001140",
+          "behavior": [
+            "If the registration count is below 1, registers one class through helper 0x10001050.",
+            "Copies a null-terminated class-name list from 0x10047748 to the second stack argument.",
+            "Returns 0xC8 (200) in EAX."
+          ],
+          "evidence": "analysis/disassembly/showdown.annotated.asm:154-173"
+        }
+      },
+      "returned_header": {
+        "file_offset": "0x45050",
+        "size_bytes": 40,
+        "fields": [
+          {
+            "offset": "0x00",
+            "raw_value": "0x00000028",
+            "observation": "Header contains 0x28 (40).",
+            "interpretation": "Likely structure size; field meaning inferred, not named in the binary."
+          },
+          {
+            "offset": "0x04",
+            "raw_value": "0x000000c8",
+            "observation": "Header contains version-like value 200; host checks this value against minimum 200."
+          },
+          {
+            "offset": "0x08",
+            "raw_value": "0x10040250",
+            "string": "showtest 1.00",
+            "observation": "Pointer resolves to the ASCII string in the plugin image."
+          },
+          {
+            "offset": "0x0c",
+            "raw_value": "0x100012c0",
+            "observation": "Routine selects a registered hash, invokes its stored creator, then calls the created object's vtable+4.",
+            "interpretation": "Class lookup/creation callback; exact ABI field name is unknown."
+          },
+          {
+            "offset": "0x10",
+            "raw_value": "0x100010d0",
+            "observation": "Thunk jumps through the object vtable entry at offset 0."
+          },
+          {
+            "offset": "0x14",
+            "raw_value": "0x100010e0",
+            "observation": "Thunk calls through object vtable+8."
+          },
+          {
+            "offset": "0x18",
+            "raw_value": "0x10001100",
+            "observation": "Thunk calls through object vtable+0x10."
+          },
+          {
+            "offset": "0x1c",
+            "raw_value": "0x10001120",
+            "observation": "Thunk calls through object vtable+0x0c."
+          },
+          {
+            "offset": "0x20",
+            "raw_value": "0x00000000",
+            "observation": "Null in on-disk header; host later writes a callback pointer at this offset."
+          },
+          {
+            "offset": "0x24",
+            "raw_value": "0x00000000",
+            "observation": "Null in on-disk header; host later writes a callback pointer at this offset."
+          }
+        ],
+        "evidence": [
+          "CLIENT/service/templeflower/bin/showdown.dll:file offset 0x45050 (40 bytes)",
+          "analysis/disassembly/showdown.annotated.asm:141-143",
+          "analysis/disassembly/showdown.annotated.asm:337-368",
+          "analysis/disassembly/objsys.annotated.asm:9808-9811"
+        ]
+      },
+      "class_registration": {
+        "trigger_va": "0x10001149",
+        "trigger": "Lazy path from GetUserClassInfo when registration count is below 1.",
+        "registrar_helper_va": "0x10001050",
+        "classes": [
+          {
+            "name": "showdown",
+            "hash": "0xd2dbceb1",
+            "creator_va": "0x10001b70"
+          }
+        ],
+        "evidence": "analysis/disassembly/showdown.annotated.asm:36-81, 154-161",
+        "inference": "The registered creator is likely a class factory because the registration helper stores it in a creator table and the lookup callback invokes it. Its exact API-level name is unknown."
+      },
+      "runtime_patched_slots": {
+        "observation": "The host writes callback addresses into header offsets 0x20 and 0x24 after version validation.",
+        "evidence": "analysis/disassembly/objsys.annotated.asm:9808-9811",
+        "unknown": "The callback semantics and why the slots are null on disk are not resolved."
+      }
+    }
+  ],
+  "unknown_boundaries": [
+    "The binary does not provide named C/C++ type declarations for the 40-byte returned header; field labels beyond directly observed values and behavior remain inferred.",
+    "The exact prototypes, calling conventions, and intended semantics of all header callback slots are not fully established.",
+    "The actual runtime values written by the host into header offsets 0x20 and 0x24 are addresses in the host image, but their callback behavior is not traced in this task.",
+    "PE entry-point addresses are recorded, but the compiler/runtime startup path was not traced far enough to identify a plugin-specific initialization routine there.",
+    "GetUserClassInfo copies a null-terminated class list to its second stack argument without an obvious capacity check in the observed function body; caller-side buffer behavior and bounds were not validated."
+  ]
+}

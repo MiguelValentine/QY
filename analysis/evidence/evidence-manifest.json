@@ -1,0 +1,398 @@
+[
+  {
+    "label": "fcruner",
+    "path": "CLIENT/fcruner.exe",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "fcruner-headers.json",
+    "error": false,
+    "evidence_id": "ev_8899ec7baee85a8475b8f94732c2b2fc6dd445d75b365e4d8929a6544d32e0f0",
+    "sha256": "76f1a1178a0d74f568421aa30249ea259952ddda4960d4b65c2d0f9cde949e1c",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "fcruner",
+    "path": "CLIENT/fcruner.exe",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "fcruner-disassembly.json",
+    "error": false,
+    "evidence_id": "ev_4916449f5550f942aa55f3bd6241a28b7b3d674b5f87c9f85394660d1e4bd4a6",
+    "sha256": "76f1a1178a0d74f568421aa30249ea259952ddda4960d4b65c2d0f9cde949e1c",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "fcruner",
+    "path": "CLIENT/fcruner.exe",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "fcruner-resources.json",
+    "error": false,
+    "evidence_id": "ev_ed3f9e6441ab9f5accf8823a78535910921ec8baeba167e4ce2067d000508da1",
+    "sha256": "76f1a1178a0d74f568421aa30249ea259952ddda4960d4b65c2d0f9cde949e1c",
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "completion_status": null,
+    "output_truncated": null,
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ]
+  },
+  {
+    "label": "fbase",
+    "path": "CLIENT/fbase.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "fbase-headers.json",
+    "error": false,
+    "evidence_id": "ev_cf9c9d830eb8d84a3f63a36f3872c6024ab124ed7e767e128a036ee73f7f8aa6",
+    "sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "fbase",
+    "path": "CLIENT/fbase.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "fbase-disassembly.json",
+    "error": false,
+    "evidence_id": "ev_5fc95fa046397bf605b945fbf373993a52efed99a223a6fc52164b61aa8a1e0a",
+    "sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "fbase",
+    "path": "CLIENT/fbase.dll",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "fbase-resources.json",
+    "error": false,
+    "evidence_id": "ev_29f074bf0cc1101f403ff620b0a0522d11151288f06ad4d4f683537dea117806",
+    "sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf",
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "completion_status": null,
+    "output_truncated": null,
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ]
+  },
+  {
+    "label": "objsys",
+    "path": "CLIENT/objsys.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "objsys-headers.json",
+    "error": false,
+    "evidence_id": "ev_1ddbb7bd9c352de3e2c9b6454662a5ecca2a8b34ab22a316ff7447e41f17a303",
+    "sha256": "dbd8eb9e3ce18a6043ab542b3ee5104c618828b8db28c8d8b11a1cf4c0429a98",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "objsys",
+    "path": "CLIENT/objsys.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "objsys-disassembly.json",
+    "error": false,
+    "evidence_id": "ev_79268ca8fa4f56c3fa122adeae94d4774f186500c9d5deb328525b66ac46cbaf",
+    "sha256": "dbd8eb9e3ce18a6043ab542b3ee5104c618828b8db28c8d8b11a1cf4c0429a98",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "objsys",
+    "path": "CLIENT/objsys.dll",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "objsys-resources.json",
+    "error": false,
+    "evidence_id": "ev_39c4876f1d896585d3fc56f35416264c4e08b1475ab3ba32789f18878133b5cd",
+    "sha256": "dbd8eb9e3ce18a6043ab542b3ee5104c618828b8db28c8d8b11a1cf4c0429a98",
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "completion_status": null,
+    "output_truncated": null,
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ]
+  },
+  {
+    "label": "showdown",
+    "path": "CLIENT/service/templeflower/bin/showdown.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "showdown-headers.json",
+    "error": false,
+    "evidence_id": "ev_4af71a53be0af0652c270c9dad005340d40a573575d341f0de9677364d887171",
+    "sha256": "c64be00d05cf32c8c50d171b2f7f7ea42f40762706c68f7413cea5288706468e",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "showdown",
+    "path": "CLIENT/service/templeflower/bin/showdown.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "showdown-disassembly.json",
+    "error": false,
+    "evidence_id": "ev_456f0a7dfe45243ed119447fc57a808b6c422fa607e472f7e1e8cd2aa6555c7d",
+    "sha256": "c64be00d05cf32c8c50d171b2f7f7ea42f40762706c68f7413cea5288706468e",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "showdown",
+    "path": "CLIENT/service/templeflower/bin/showdown.dll",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "showdown-resources.json",
+    "error": false,
+    "evidence_id": "ev_37d24d8954675146cacb487a08e7499013372fc0d6e1e9a09793e8836fa67bc7",
+    "sha256": "c64be00d05cf32c8c50d171b2f7f7ea42f40762706c68f7413cea5288706468e",
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "completion_status": null,
+    "output_truncated": null,
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ]
+  },
+  {
+    "label": "pacmandll",
+    "path": "CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "pacmandll-headers.json",
+    "error": false,
+    "evidence_id": "ev_70e76cf0ca2438fa55193c3039a21e632340b5063a2099b9c5a336a0dfdb8b62",
+    "sha256": "7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "pacmandll",
+    "path": "CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "pacmandll-disassembly.json",
+    "error": false,
+    "evidence_id": "ev_e790d970147fca2e72a4efe1cd10fc6aea0a0e38498325d1d7f37d27c9249b59",
+    "sha256": "7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "pacmandll",
+    "path": "CLIENT/service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "pacmandll-resources.json",
+    "error": false,
+    "evidence_id": "ev_01788242dee7c179b0773cbead6186bf353ce4db4f6f1b2383b3c6a0bf444ecd",
+    "sha256": "7964149da153765335dd1414477cd8e9763f38bad8238247c7bfeb2f36dbe6b2",
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "completion_status": null,
+    "output_truncated": null,
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ]
+  },
+  {
+    "label": "launcher",
+    "path": "CLIENT/帅哥奇域.EXE",
+    "tool": "inspect_with_objdump",
+    "operation": "file_headers",
+    "file": "launcher-headers.json",
+    "error": false,
+    "evidence_id": "ev_6fa43a44bb0d20a7ecdce647a371a4898b0a3bc57288d9fc2e32ab9a8f6a11d3",
+    "sha256": "b812d42285742e50f6d51a0164f976d79b8a548db7940d5923b33fc89c1035b3",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "launcher",
+    "path": "CLIENT/帅哥奇域.EXE",
+    "tool": "inspect_with_objdump",
+    "operation": "disassemble",
+    "file": "launcher-disassembly.json",
+    "error": false,
+    "evidence_id": "ev_d043452d2dc6524667cac68318ed0aeac0c3ef0664eb3acce4c6f9b893fc03e4",
+    "sha256": "b812d42285742e50f6d51a0164f976d79b8a548db7940d5923b33fc89c1035b3",
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "completion_status": "complete",
+    "output_truncated": false,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ]
+  },
+  {
+    "label": "launcher",
+    "path": "CLIENT/帅哥奇域.EXE",
+    "tool": "inspect_pe_resources",
+    "operation": null,
+    "file": "launcher-resources.json",
+    "error": false,
+    "evidence_id": "ev_aae6c0e8b55c26205caf0bbff54782dc2f24876c625603923cf03395d6933d30",
+    "sha256": "b812d42285742e50f6d51a0164f976d79b8a548db7940d5923b33fc89c1035b3",
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "completion_status": null,
+    "output_truncated": null,
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ]
+  }
+]

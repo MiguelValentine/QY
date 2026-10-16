@@ -1,0 +1,170 @@
+{
+  "_meta": {
+    "provenance": {
+      "untrusted_content": true,
+      "source": "analysis_target"
+    }
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_29f074bf0cc1101f403ff620b0a0522d11151288f06ad4d4f683537dea117806\",\"subject\":{\"name\":\"fbase.dll\",\"digest\":{\"sha256\":\"98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf\"},\"local_path\":\"/Users/miguel/Desktop/QY/CLIENT/fbase.dll\",\"format\":\"pe\",\"architecture\":null},\"provider\":{\"id\":\"rea-pe-resources\",\"name\":\"REA PE resource parser\",\"version\":\"1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_pe_resources\",\"parameters\":{\"path\":\"/Users/miguel/Desktop/QY/CLIENT/fbase.dll\",\"max_file_bytes\":67108864,\"max_entries\":16384},\"raw_result\":null,\"normalized_result\":{\"artifact\":{\"path\":\"/Users/miguel/Desktop/QY/CLIENT/fbase.dll\",\"sha256\":\"98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf\",\"bytes\":438272},\"format\":\"pe32\",\"machine\":332,\"directory\":{\"rva\":888832,\"location\":{\"offset\":417792,\"bytes\":1032},\"data_directory_location\":{\"offset\":408,\"bytes\":8}},\"directories\":[{\"location\":{\"offset\":417792,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":417816,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1},{\"location\":{\"offset\":417840,\"bytes\":24},\"characteristics\":0,\"timestamp\":0,\"major_version\":0,\"minor_version\":0,\"named_entries\":0,\"id_entries\":1}],\"resources\":[{\"index\":0,\"type\":{\"kind\":\"id\",\"id\":16},\"name\":{\"kind\":\"id\",\"id\":1},\"language\":{\"kind\":\"id\",\"id\":2052},\"entry_locations\":[{\"offset\":417808,\"bytes\":8},{\"offset\":417832,\"bytes\":8},{\"offset\":417856,\"bytes\":8}],\"data_entry_location\":{\"offset\":417864,\"bytes\":16},\"code_page\":0,\"reserved\":0,\"payload\":{\"rva\":888928,\"location\":{\"offset\":417888,\"bytes\":932},\"sha256\":\"3b180a60895afb0b6b2a51ea4d588d4d4d5589c2d9c5454401e3c1b08cf283c8\"}}],\"icon_groups\":[],\"coverage\":{\"status\":\"complete\",\"examined_entries\":3,\"resources\":1},\"limitations\":[\"Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.\",\"Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.\",\"Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected.\"]},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.\",\"Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.\",\"Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected.\"],\"relationship_coverage\":null,\"locations\":[{\"kind\":\"artifact-path\",\"path\":\"/Users/miguel/Desktop/QY/CLIENT/fbase.dll\"}],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_29f074bf0cc1101f403ff620b0a0522d11151288f06ad4d4f683537dea117806",
+    "subject": {
+      "name": "fbase.dll",
+      "digest": {
+        "sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf"
+      },
+      "local_path": "/Users/miguel/Desktop/QY/CLIENT/fbase.dll",
+      "format": "pe",
+      "architecture": null
+    },
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_pe_resources",
+    "parameters": {
+      "path": "/Users/miguel/Desktop/QY/CLIENT/fbase.dll",
+      "max_file_bytes": 67108864,
+      "max_entries": 16384
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "artifact": {
+        "path": "/Users/miguel/Desktop/QY/CLIENT/fbase.dll",
+        "sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf",
+        "bytes": 438272
+      },
+      "format": "pe32",
+      "machine": 332,
+      "directory": {
+        "rva": 888832,
+        "location": {
+          "offset": 417792,
+          "bytes": 1032
+        },
+        "data_directory_location": {
+          "offset": 408,
+          "bytes": 8
+        }
+      },
+      "directories": [
+        {
+          "location": {
+            "offset": 417792,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 417816,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        },
+        {
+          "location": {
+            "offset": 417840,
+            "bytes": 24
+          },
+          "characteristics": 0,
+          "timestamp": 0,
+          "major_version": 0,
+          "minor_version": 0,
+          "named_entries": 0,
+          "id_entries": 1
+        }
+      ],
+      "resources": [
+        {
+          "index": 0,
+          "type": {
+            "kind": "id",
+            "id": 16
+          },
+          "name": {
+            "kind": "id",
+            "id": 1
+          },
+          "language": {
+            "kind": "id",
+            "id": 2052
+          },
+          "entry_locations": [
+            {
+              "offset": 417808,
+              "bytes": 8
+            },
+            {
+              "offset": 417832,
+              "bytes": 8
+            },
+            {
+              "offset": 417856,
+              "bytes": 8
+            }
+          ],
+          "data_entry_location": {
+            "offset": 417864,
+            "bytes": 16
+          },
+          "code_page": 0,
+          "reserved": 0,
+          "payload": {
+            "rva": 888928,
+            "location": {
+              "offset": 417888,
+              "bytes": 932
+            },
+            "sha256": "3b180a60895afb0b6b2a51ea4d588d4d4d5589c2d9c5454401e3c1b08cf283c8"
+          }
+        }
+      ],
+      "icon_groups": [],
+      "coverage": {
+        "status": "complete",
+        "examined_entries": 3,
+        "resources": 1
+      },
+      "limitations": [
+        "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+        "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+        "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "/Users/miguel/Desktop/QY/CLIENT/fbase.dll"
+      }
+    ],
+    "evidence_links": []
+  }
+}

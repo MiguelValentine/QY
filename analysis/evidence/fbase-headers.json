@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "provenance": {
+      "untrusted_content": true,
+      "source": "analysis_target"
+    }
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_cf9c9d830eb8d84a3f63a36f3872c6024ab124ed7e767e128a036ee73f7f8aa6\",\"subject\":{\"name\":\"fbase.dll\",\"digest\":{\"sha256\":\"98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf\"},\"local_path\":\"/Users/miguel/Desktop/QY/CLIENT/fbase.dll\",\"format\":\"unknown\",\"architecture\":null},\"provider\":{\"id\":\"gnu.objdump\",\"name\":\"GNU objdump\",\"version\":null},\"analysis_profile\":null,\"predicate_type\":\"rea.reverse-engineering.command-observation\",\"operation\":\"inspect_with_objdump\",\"parameters\":{\"path\":\"/Users/miguel/Desktop/QY/CLIENT/fbase.dll\",\"operation\":\"file_headers\",\"follow_debug_links\":false,\"provider_executable\":\"/opt/homebrew/opt/binutils/bin/gobjdump\",\"command_arguments\":[\"-f\",\"/Users/miguel/Desktop/QY/CLIENT/fbase.dll\"]},\"raw_result\":{\"stdout\":\"\\n/Users/miguel/Desktop/QY/CLIENT/fbase.dll:     file format pei-i386\\narchitecture: i386, flags 0x0000010b:\\nHAS_RELOC, EXEC_P, HAS_DEBUG, D_PAGED\\nstart address 0x100360be\\n\\n\",\"stderr\":\"\",\"exit_code\":0,\"signal\":null,\"output_truncated\":false,\"completion_status\":\"complete\",\"artifact_sha256_after\":\"98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf\",\"artifact_changed\":false},\"normalized_result\":{\"stdout\":\"\\n/Users/miguel/Desktop/QY/CLIENT/fbase.dll:     file format pei-i386\\narchitecture: i386, flags 0x0000010b:\\nHAS_RELOC, EXEC_P, HAS_DEBUG, D_PAGED\\nstart address 0x100360be\\n\\n\",\"stderr\":\"\",\"exit_code\":0,\"signal\":null,\"output_truncated\":false,\"completion_status\":\"complete\",\"artifact_sha256_after\":\"98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf\",\"artifact_changed\":false},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The executable version and supported formats are reported as unknown because no reliable version probe was performed.\",\"A non-zero process exit is preserved as an observed command result.\",\"When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call.\"],\"relationship_coverage\":null,\"locations\":[{\"kind\":\"artifact-path\",\"path\":\"/Users/miguel/Desktop/QY/CLIENT/fbase.dll\"}],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_cf9c9d830eb8d84a3f63a36f3872c6024ab124ed7e767e128a036ee73f7f8aa6",
+    "subject": {
+      "name": "fbase.dll",
+      "digest": {
+        "sha256": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf"
+      },
+      "local_path": "/Users/miguel/Desktop/QY/CLIENT/fbase.dll",
+      "format": "unknown",
+      "architecture": null
+    },
+    "provider": {
+      "id": "gnu.objdump",
+      "name": "GNU objdump",
+      "version": null
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.reverse-engineering.command-observation",
+    "operation": "inspect_with_objdump",
+    "parameters": {
+      "path": "/Users/miguel/Desktop/QY/CLIENT/fbase.dll",
+      "operation": "file_headers",
+      "follow_debug_links": false,
+      "provider_executable": "/opt/homebrew/opt/binutils/bin/gobjdump",
+      "command_arguments": [
+        "-f",
+        "/Users/miguel/Desktop/QY/CLIENT/fbase.dll"
+      ]
+    },
+    "raw_result": {
+      "stdout": "\n/Users/miguel/Desktop/QY/CLIENT/fbase.dll:     file format pei-i386\narchitecture: i386, flags 0x0000010b:\nHAS_RELOC, EXEC_P, HAS_DEBUG, D_PAGED\nstart address 0x100360be\n\n",
+      "stderr": "",
+      "exit_code": 0,
+      "signal": null,
+      "output_truncated": false,
+      "completion_status": "complete",
+      "artifact_sha256_after": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf",
+      "artifact_changed": false
+    },
+    "normalized_result": {
+      "stdout": "\n/Users/miguel/Desktop/QY/CLIENT/fbase.dll:     file format pei-i386\narchitecture: i386, flags 0x0000010b:\nHAS_RELOC, EXEC_P, HAS_DEBUG, D_PAGED\nstart address 0x100360be\n\n",
+      "stderr": "",
+      "exit_code": 0,
+      "signal": null,
+      "output_truncated": false,
+      "completion_status": "complete",
+      "artifact_sha256_after": "98bb2c6ef0c67b719aafda61f7799f6c80a9b13206a4e2e3c200b89722ecedaf",
+      "artifact_changed": false
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The executable version and supported formats are reported as unknown because no reliable version probe was performed.",
+      "A non-zero process exit is preserved as an observed command result.",
+      "When both are available, pre-run and post-run digests detect artifact changes across the provider call but cannot prove the exact bytes consumed during the call."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "/Users/miguel/Desktop/QY/CLIENT/fbase.dll"
+      }
+    ],
+    "evidence_links": []
+  }
+}

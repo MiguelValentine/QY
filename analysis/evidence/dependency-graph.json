@@ -1,0 +1,4543 @@
+[
+  {
+    "from": "fbase.dll",
+    "to": "kernel32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 111,
+    "resolved_imports": []
+  },
+  {
+    "from": "fbase.dll",
+    "to": "user32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 40,
+    "resolved_imports": []
+  },
+  {
+    "from": "fbase.dll",
+    "to": "gdi32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 24,
+    "resolved_imports": []
+  },
+  {
+    "from": "fbase.dll",
+    "to": "comdlg32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 1,
+    "resolved_imports": []
+  },
+  {
+    "from": "fbase.dll",
+    "to": "advapi32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 5,
+    "resolved_imports": []
+  },
+  {
+    "from": "fbase.dll",
+    "to": "ole32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 1,
+    "resolved_imports": []
+  },
+  {
+    "from": "fbase.dll",
+    "to": "oleaut32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 1,
+    "resolved_imports": []
+  },
+  {
+    "from": "fbase.dll",
+    "to": "wsock32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 18,
+    "resolved_imports": []
+  },
+  {
+    "from": "fbase.dll",
+    "to": "dsound.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 1,
+    "resolved_imports": []
+  },
+  {
+    "from": "fcruner.exe",
+    "to": "kernel32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 85,
+    "resolved_imports": []
+  },
+  {
+    "from": "fcruner.exe",
+    "to": "user32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 29,
+    "resolved_imports": []
+  },
+  {
+    "from": "fcruner.exe",
+    "to": "advapi32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 4,
+    "resolved_imports": []
+  },
+  {
+    "from": "fcruner.exe",
+    "to": "comctl32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 1,
+    "resolved_imports": []
+  },
+  {
+    "from": "fcruner.exe",
+    "to": "urlmon.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 1,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "kernel32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 111,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "user32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 73,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "gdi32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 16,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "comdlg32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 2,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "advapi32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 6,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "shell32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 6,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "ole32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 3,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "fbase.dll",
+    "kind": "static_import",
+    "local": true,
+    "import_count": 529,
+    "resolved_imports": [
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 232,
+        "iat_va": 269078556,
+        "target_va": 268479840,
+        "target_rva": 44384
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 229,
+        "iat_va": 269078560,
+        "target_va": 268480096,
+        "target_rva": 44640
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 394,
+        "iat_va": 269078564,
+        "target_va": 268550656,
+        "target_rva": 115200
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 846,
+        "iat_va": 269078568,
+        "target_va": 268452272,
+        "target_rva": 16816
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 687,
+        "iat_va": 269078572,
+        "target_va": 268502544,
+        "target_rva": 67088
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 483,
+        "iat_va": 269078576,
+        "target_va": 268474400,
+        "target_rva": 38944
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 476,
+        "iat_va": 269078580,
+        "target_va": 268475056,
+        "target_rva": 39600
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 491,
+        "iat_va": 269078584,
+        "target_va": 268474672,
+        "target_rva": 39216
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 220,
+        "iat_va": 269078588,
+        "target_va": 268825280,
+        "target_rva": 389824
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 157,
+        "iat_va": 269078592,
+        "target_va": 268642816,
+        "target_rva": 207360
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 224,
+        "iat_va": 269078596,
+        "target_va": 268479664,
+        "target_rva": 44208
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 154,
+        "iat_va": 269078600,
+        "target_va": 268643184,
+        "target_rva": 207728
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 293,
+        "iat_va": 269078604,
+        "target_va": 268483520,
+        "target_rva": 48064
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 225,
+        "iat_va": 269078608,
+        "target_va": 268479744,
+        "target_rva": 44288
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 155,
+        "iat_va": 269078612,
+        "target_va": 268643248,
+        "target_rva": 207792
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 294,
+        "iat_va": 269078616,
+        "target_va": 268485088,
+        "target_rva": 49632
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 208,
+        "iat_va": 269078620,
+        "target_va": 268467008,
+        "target_rva": 31552
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 373,
+        "iat_va": 269078624,
+        "target_va": 268442480,
+        "target_rva": 7024
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 364,
+        "iat_va": 269078628,
+        "target_va": 268445680,
+        "target_rva": 10224
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 158,
+        "iat_va": 269078632,
+        "target_va": 268643424,
+        "target_rva": 207968
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 161,
+        "iat_va": 269078636,
+        "target_va": 268643296,
+        "target_rva": 207840
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 160,
+        "iat_va": 269078640,
+        "target_va": 268644064,
+        "target_rva": 208608
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 215,
+        "iat_va": 269078644,
+        "target_va": 268471984,
+        "target_rva": 36528
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 871,
+        "iat_va": 269078648,
+        "target_va": 268452400,
+        "target_rva": 16944
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 865,
+        "iat_va": 269078652,
+        "target_va": 268449920,
+        "target_rva": 14464
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 872,
+        "iat_va": 269078656,
+        "target_va": 268452304,
+        "target_rva": 16848
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 528,
+        "iat_va": 269078660,
+        "target_va": 268488656,
+        "target_rva": 53200
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 305,
+        "iat_va": 269078664,
+        "target_va": 268485168,
+        "target_rva": 49712
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 302,
+        "iat_va": 269078668,
+        "target_va": 268484208,
+        "target_rva": 48752
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 310,
+        "iat_va": 269078672,
+        "target_va": 268485120,
+        "target_rva": 49664
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 539,
+        "iat_va": 269078676,
+        "target_va": 268491232,
+        "target_rva": 55776
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 62,
+        "iat_va": 269078680,
+        "target_va": 268604736,
+        "target_rva": 169280
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 816,
+        "iat_va": 269078684,
+        "target_va": 268529712,
+        "target_rva": 94256
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 187,
+        "iat_va": 269078688,
+        "target_va": 268465952,
+        "target_rva": 30496
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 186,
+        "iat_va": 269078692,
+        "target_va": 268458544,
+        "target_rva": 23088
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 403,
+        "iat_va": 269078696,
+        "target_va": 268558480,
+        "target_rva": 123024
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 184,
+        "iat_va": 269078700,
+        "target_va": 268465936,
+        "target_rva": 30480
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 176,
+        "iat_va": 269078704,
+        "target_va": 268465616,
+        "target_rva": 30160
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 177,
+        "iat_va": 269078708,
+        "target_va": 268466000,
+        "target_rva": 30544
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 811,
+        "iat_va": 269078712,
+        "target_va": 268528576,
+        "target_rva": 93120
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 761,
+        "iat_va": 269078716,
+        "target_va": 268513296,
+        "target_rva": 77840
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 810,
+        "iat_va": 269078720,
+        "target_va": 268528080,
+        "target_rva": 92624
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 818,
+        "iat_va": 269078724,
+        "target_va": 268529792,
+        "target_rva": 94336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 814,
+        "iat_va": 269078728,
+        "target_va": 268528688,
+        "target_rva": 93232
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 663,
+        "iat_va": 269078732,
+        "target_va": 268491776,
+        "target_rva": 56320
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 787,
+        "iat_va": 269078736,
+        "target_va": 268443568,
+        "target_rva": 8112
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 202,
+        "iat_va": 269078740,
+        "target_va": 268473472,
+        "target_rva": 38016
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 689,
+        "iat_va": 269078744,
+        "target_va": 268498160,
+        "target_rva": 62704
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 713,
+        "iat_va": 269078748,
+        "target_va": 268498512,
+        "target_rva": 63056
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 861,
+        "iat_va": 269078752,
+        "target_va": 268451712,
+        "target_rva": 16256
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 672,
+        "iat_va": 269078756,
+        "target_va": 268493184,
+        "target_rva": 57728
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 665,
+        "iat_va": 269078760,
+        "target_va": 268491840,
+        "target_rva": 56384
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 790,
+        "iat_va": 269078764,
+        "target_va": 268526128,
+        "target_rva": 90672
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 662,
+        "iat_va": 269078768,
+        "target_va": 268497792,
+        "target_rva": 62336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 696,
+        "iat_va": 269078772,
+        "target_va": 268494896,
+        "target_rva": 59440
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 727,
+        "iat_va": 269078776,
+        "target_va": 268507840,
+        "target_rva": 72384
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 695,
+        "iat_va": 269078780,
+        "target_va": 268494944,
+        "target_rva": 59488
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 703,
+        "iat_va": 269078784,
+        "target_va": 268492160,
+        "target_rva": 56704
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 700,
+        "iat_va": 269078788,
+        "target_va": 268504176,
+        "target_rva": 68720
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 675,
+        "iat_va": 269078792,
+        "target_va": 268493440,
+        "target_rva": 57984
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 817,
+        "iat_va": 269078796,
+        "target_va": 268528112,
+        "target_rva": 92656
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 905,
+        "iat_va": 269078800,
+        "target_va": 268577600,
+        "target_rva": 142144
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 899,
+        "iat_va": 269078804,
+        "target_va": 268564016,
+        "target_rva": 128560
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 894,
+        "iat_va": 269078808,
+        "target_va": 268570464,
+        "target_rva": 135008
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 888,
+        "iat_va": 269078812,
+        "target_va": 268570768,
+        "target_rva": 135312
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 339,
+        "iat_va": 269078816,
+        "target_va": 268541136,
+        "target_rva": 105680
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 398,
+        "iat_va": 269078820,
+        "target_va": 268553216,
+        "target_rva": 117760
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 499,
+        "iat_va": 269078824,
+        "target_va": 268488384,
+        "target_rva": 52928
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 231,
+        "iat_va": 269078828,
+        "target_va": 268479808,
+        "target_rva": 44352
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 508,
+        "iat_va": 269078832,
+        "target_va": 268488544,
+        "target_rva": 53088
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 391,
+        "iat_va": 269078836,
+        "target_va": 268442528,
+        "target_rva": 7072
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 509,
+        "iat_va": 269078840,
+        "target_va": 268487600,
+        "target_rva": 52144
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 507,
+        "iat_va": 269078844,
+        "target_va": 268487440,
+        "target_rva": 51984
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 505,
+        "iat_va": 269078848,
+        "target_va": 268527328,
+        "target_rva": 91872
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 504,
+        "iat_va": 269078852,
+        "target_va": 268487104,
+        "target_rva": 51648
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 502,
+        "iat_va": 269078856,
+        "target_va": 268488048,
+        "target_rva": 52592
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 506,
+        "iat_va": 269078860,
+        "target_va": 268487168,
+        "target_rva": 51712
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 501,
+        "iat_va": 269078864,
+        "target_va": 268488272,
+        "target_rva": 52816
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 500,
+        "iat_va": 269078868,
+        "target_va": 268487840,
+        "target_rva": 52384
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 334,
+        "iat_va": 269078872,
+        "target_va": 268559312,
+        "target_rva": 123856
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 340,
+        "iat_va": 269078876,
+        "target_va": 268540768,
+        "target_rva": 105312
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 392,
+        "iat_va": 269078880,
+        "target_va": 268442752,
+        "target_rva": 7296
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 897,
+        "iat_va": 269078884,
+        "target_va": 268573184,
+        "target_rva": 137728
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 399,
+        "iat_va": 269078888,
+        "target_va": 268553488,
+        "target_rva": 118032
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 898,
+        "iat_va": 269078892,
+        "target_va": 268575216,
+        "target_rva": 139760
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 886,
+        "iat_va": 269078896,
+        "target_va": 268573984,
+        "target_rva": 138528
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 902,
+        "iat_va": 269078900,
+        "target_va": 268574240,
+        "target_rva": 138784
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 904,
+        "iat_va": 269078904,
+        "target_va": 268574736,
+        "target_rva": 139280
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 901,
+        "iat_va": 269078908,
+        "target_va": 268574976,
+        "target_rva": 139520
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 46,
+        "iat_va": 269078912,
+        "target_va": 268443584,
+        "target_rva": 8128
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 42,
+        "iat_va": 269078916,
+        "target_va": 268591280,
+        "target_rva": 155824
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 883,
+        "iat_va": 269078920,
+        "target_va": 268564768,
+        "target_rva": 129312
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 77,
+        "iat_va": 269078924,
+        "target_va": 268622400,
+        "target_rva": 186944
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 81,
+        "iat_va": 269078928,
+        "target_va": 268443680,
+        "target_rva": 8224
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 353,
+        "iat_va": 269078932,
+        "target_va": 268556576,
+        "target_rva": 121120
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 347,
+        "iat_va": 269078936,
+        "target_va": 268558992,
+        "target_rva": 123536
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 909,
+        "iat_va": 269078940,
+        "target_va": 268550896,
+        "target_rva": 115440
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 519,
+        "iat_va": 269078944,
+        "target_va": 268488736,
+        "target_rva": 53280
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 734,
+        "iat_va": 269078948,
+        "target_va": 268507952,
+        "target_rva": 72496
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 317,
+        "iat_va": 269078952,
+        "target_va": 268544096,
+        "target_rva": 108640
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 381,
+        "iat_va": 269078956,
+        "target_va": 268545968,
+        "target_rva": 110512
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 103,
+        "iat_va": 269078960,
+        "target_va": 268448336,
+        "target_rva": 12880
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 92,
+        "iat_va": 269078964,
+        "target_va": 268447984,
+        "target_rva": 12528
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 99,
+        "iat_va": 269078968,
+        "target_va": 268445600,
+        "target_rva": 10144
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 98,
+        "iat_va": 269078972,
+        "target_va": 268445888,
+        "target_rva": 10432
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 771,
+        "iat_va": 269078976,
+        "target_va": 268509792,
+        "target_rva": 74336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 908,
+        "iat_va": 269078980,
+        "target_va": 268576016,
+        "target_rva": 140560
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 451,
+        "iat_va": 269078984,
+        "target_va": 268584000,
+        "target_rva": 148544
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 387,
+        "iat_va": 269078988,
+        "target_va": 268544448,
+        "target_rva": 108992
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 88,
+        "iat_va": 269078992,
+        "target_va": 268445840,
+        "target_rva": 10384
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 89,
+        "iat_va": 269078996,
+        "target_va": 268448320,
+        "target_rva": 12864
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 349,
+        "iat_va": 269079000,
+        "target_va": 268539344,
+        "target_rva": 103888
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 200,
+        "iat_va": 269079004,
+        "target_va": 268445696,
+        "target_rva": 10240
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 351,
+        "iat_va": 269079008,
+        "target_va": 268554608,
+        "target_rva": 119152
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 376,
+        "iat_va": 269079012,
+        "target_va": 268539296,
+        "target_rva": 103840
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 363,
+        "iat_va": 269079016,
+        "target_va": 268442976,
+        "target_rva": 7520
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 390,
+        "iat_va": 269079020,
+        "target_va": 268546336,
+        "target_rva": 110880
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 540,
+        "iat_va": 269079024,
+        "target_va": 268491472,
+        "target_rva": 56016
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 75,
+        "iat_va": 269079028,
+        "target_va": 268616000,
+        "target_rva": 180544
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 544,
+        "iat_va": 269079032,
+        "target_va": 268490272,
+        "target_rva": 54816
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 542,
+        "iat_va": 269079036,
+        "target_va": 268488736,
+        "target_rva": 53280
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 917,
+        "iat_va": 269079040,
+        "target_va": 268590032,
+        "target_rva": 154576
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 907,
+        "iat_va": 269079044,
+        "target_va": 268588480,
+        "target_rva": 153024
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 454,
+        "iat_va": 269079048,
+        "target_va": 269164792,
+        "target_rva": 729336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 913,
+        "iat_va": 269079052,
+        "target_va": 268587536,
+        "target_rva": 152080
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 916,
+        "iat_va": 269079056,
+        "target_va": 268825540,
+        "target_rva": 390084
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 196,
+        "iat_va": 269079060,
+        "target_va": 268475632,
+        "target_rva": 40176
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 356,
+        "iat_va": 269079064,
+        "target_va": 268553904,
+        "target_rva": 118448
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 389,
+        "iat_va": 269079068,
+        "target_va": 268553824,
+        "target_rva": 118368
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 331,
+        "iat_va": 269079072,
+        "target_va": 268576688,
+        "target_rva": 141232
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 900,
+        "iat_va": 269079076,
+        "target_va": 268565792,
+        "target_rva": 130336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 453,
+        "iat_va": 269079080,
+        "target_va": 268580640,
+        "target_rva": 145184
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 388,
+        "iat_va": 269079084,
+        "target_va": 268544672,
+        "target_rva": 109216
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 415,
+        "iat_va": 269079088,
+        "target_va": 268442992,
+        "target_rva": 7536
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 124,
+        "iat_va": 269079092,
+        "target_va": 268454912,
+        "target_rva": 19456
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 445,
+        "iat_va": 269079096,
+        "target_va": 268579312,
+        "target_rva": 143856
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 33,
+        "iat_va": 269079100,
+        "target_va": 268593232,
+        "target_rva": 157776
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 850,
+        "iat_va": 269079104,
+        "target_va": 268450896,
+        "target_rva": 15440
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 848,
+        "iat_va": 269079108,
+        "target_va": 268452528,
+        "target_rva": 17072
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 233,
+        "iat_va": 269079112,
+        "target_va": 268479776,
+        "target_rva": 44320
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 522,
+        "iat_va": 269079116,
+        "target_va": 268439824,
+        "target_rva": 4368
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 679,
+        "iat_va": 269079120,
+        "target_va": 268493584,
+        "target_rva": 58128
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 489,
+        "iat_va": 269079124,
+        "target_va": 268471696,
+        "target_rva": 36240
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 440,
+        "iat_va": 269079128,
+        "target_va": 268454384,
+        "target_rva": 18928
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 332,
+        "iat_va": 269079132,
+        "target_va": 268549264,
+        "target_rva": 113808
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 322,
+        "iat_va": 269079136,
+        "target_va": 268558656,
+        "target_rva": 123200
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 439,
+        "iat_va": 269079140,
+        "target_va": 268583760,
+        "target_rva": 148304
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 411,
+        "iat_va": 269079144,
+        "target_va": 268543776,
+        "target_rva": 108320
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 369,
+        "iat_va": 269079148,
+        "target_va": 268550096,
+        "target_rva": 114640
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 404,
+        "iat_va": 269079152,
+        "target_va": 268548880,
+        "target_rva": 113424
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 647,
+        "iat_va": 269079156,
+        "target_va": 268501184,
+        "target_rva": 65728
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 717,
+        "iat_va": 269079160,
+        "target_va": 269028752,
+        "target_rva": 593296
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 657,
+        "iat_va": 269079164,
+        "target_va": 268495472,
+        "target_rva": 60016
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 656,
+        "iat_va": 269079168,
+        "target_va": 268499840,
+        "target_rva": 64384
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 637,
+        "iat_va": 269079172,
+        "target_va": 268500096,
+        "target_rva": 64640
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 636,
+        "iat_va": 269079176,
+        "target_va": 268491744,
+        "target_rva": 56288
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 858,
+        "iat_va": 269079180,
+        "target_va": 268449152,
+        "target_rva": 13696
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 646,
+        "iat_va": 269079184,
+        "target_va": 268495584,
+        "target_rva": 60128
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 702,
+        "iat_va": 269079188,
+        "target_va": 268492128,
+        "target_rva": 56672
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 639,
+        "iat_va": 269079192,
+        "target_va": 268500896,
+        "target_rva": 65440
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 650,
+        "iat_va": 269079196,
+        "target_va": 268501120,
+        "target_rva": 65664
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 433,
+        "iat_va": 269079200,
+        "target_va": 268579568,
+        "target_rva": 144112
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 112,
+        "iat_va": 269079204,
+        "target_va": 268536784,
+        "target_rva": 101328
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 449,
+        "iat_va": 269079208,
+        "target_va": 268582240,
+        "target_rva": 146784
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 667,
+        "iat_va": 269079212,
+        "target_va": 268500528,
+        "target_rva": 65072
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 432,
+        "iat_va": 269079216,
+        "target_va": 268579456,
+        "target_rva": 144000
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 802,
+        "iat_va": 269079220,
+        "target_va": 268514704,
+        "target_rva": 79248
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 748,
+        "iat_va": 269079224,
+        "target_va": 268518016,
+        "target_rva": 82560
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 417,
+        "iat_va": 269079228,
+        "target_va": 268542336,
+        "target_rva": 106880
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 386,
+        "iat_va": 269079232,
+        "target_va": 268547648,
+        "target_rva": 112192
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 397,
+        "iat_va": 269079236,
+        "target_va": 268546576,
+        "target_rva": 111120
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 383,
+        "iat_va": 269079240,
+        "target_va": 268547808,
+        "target_rva": 112352
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 416,
+        "iat_va": 269079244,
+        "target_va": 268542128,
+        "target_rva": 106672
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 384,
+        "iat_va": 269079248,
+        "target_va": 268541904,
+        "target_rva": 106448
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 116,
+        "iat_va": 269079252,
+        "target_va": 268537424,
+        "target_rva": 101968
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 114,
+        "iat_va": 269079256,
+        "target_va": 268536416,
+        "target_rva": 100960
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 115,
+        "iat_va": 269079260,
+        "target_va": 268536368,
+        "target_rva": 100912
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 444,
+        "iat_va": 269079264,
+        "target_va": 268581200,
+        "target_rva": 145744
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 778,
+        "iat_va": 269079268,
+        "target_va": 268509696,
+        "target_rva": 74240
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 638,
+        "iat_va": 269079272,
+        "target_va": 268500864,
+        "target_rva": 65408
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 808,
+        "iat_va": 269079276,
+        "target_va": 268511536,
+        "target_rva": 76080
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 791,
+        "iat_va": 269079280,
+        "target_va": 268443536,
+        "target_rva": 8080
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 107,
+        "iat_va": 269079284,
+        "target_va": 268536208,
+        "target_rva": 100752
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 108,
+        "iat_va": 269079288,
+        "target_va": 268538256,
+        "target_rva": 102800
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 314,
+        "iat_va": 269079292,
+        "target_va": 268539504,
+        "target_rva": 104048
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 279,
+        "iat_va": 269079296,
+        "target_va": 268482048,
+        "target_rva": 46592
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 313,
+        "iat_va": 269079300,
+        "target_va": 268539424,
+        "target_rva": 103968
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 278,
+        "iat_va": 269079304,
+        "target_va": 268481152,
+        "target_rva": 45696
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 285,
+        "iat_va": 269079308,
+        "target_va": 268481184,
+        "target_rva": 45728
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 361,
+        "iat_va": 269079312,
+        "target_va": 268443232,
+        "target_rva": 7776
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 338,
+        "iat_va": 269079316,
+        "target_va": 268540336,
+        "target_rva": 104880
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 336,
+        "iat_va": 269079320,
+        "target_va": 268539872,
+        "target_rva": 104416
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 370,
+        "iat_va": 269079324,
+        "target_va": 268554720,
+        "target_rva": 119264
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 368,
+        "iat_va": 269079328,
+        "target_va": 268545584,
+        "target_rva": 110128
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 360,
+        "iat_va": 269079332,
+        "target_va": 268442464,
+        "target_rva": 7008
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 446,
+        "iat_va": 269079336,
+        "target_va": 268581792,
+        "target_rva": 146336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 346,
+        "iat_va": 269079340,
+        "target_va": 268539632,
+        "target_rva": 104176
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 323,
+        "iat_va": 269079344,
+        "target_va": 268563472,
+        "target_rva": 128016
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 862,
+        "iat_va": 269079348,
+        "target_va": 268451280,
+        "target_rva": 15824
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 438,
+        "iat_va": 269079352,
+        "target_va": 268579392,
+        "target_rva": 143936
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 842,
+        "iat_va": 269079356,
+        "target_va": 268452592,
+        "target_rva": 17136
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 746,
+        "iat_va": 269079360,
+        "target_va": 268517392,
+        "target_rva": 81936
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 525,
+        "iat_va": 269079364,
+        "target_va": 268489984,
+        "target_rva": 54528
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 767,
+        "iat_va": 269079368,
+        "target_va": 268514432,
+        "target_rva": 78976
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 648,
+        "iat_va": 269079372,
+        "target_va": 268501088,
+        "target_rva": 65632
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 520,
+        "iat_va": 269079376,
+        "target_va": 268490224,
+        "target_rva": 54768
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 661,
+        "iat_va": 269079380,
+        "target_va": 268439600,
+        "target_rva": 4144
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 745,
+        "iat_va": 269079384,
+        "target_va": 268443504,
+        "target_rva": 8048
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 496,
+        "iat_va": 269079388,
+        "target_va": 268488528,
+        "target_rva": 53072
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 710,
+        "iat_va": 269079392,
+        "target_va": 268497968,
+        "target_rva": 62512
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 686,
+        "iat_va": 269079396,
+        "target_va": 268527328,
+        "target_rva": 91872
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 660,
+        "iat_va": 269079400,
+        "target_va": 268492528,
+        "target_rva": 57072
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 503,
+        "iat_va": 269079404,
+        "target_va": 268487344,
+        "target_rva": 51888
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 769,
+        "iat_va": 269079408,
+        "target_va": 268525472,
+        "target_rva": 90016
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 495,
+        "iat_va": 269079412,
+        "target_va": 268487072,
+        "target_rva": 51616
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 770,
+        "iat_va": 269079416,
+        "target_va": 268518848,
+        "target_rva": 83392
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 788,
+        "iat_va": 269079420,
+        "target_va": 268512752,
+        "target_rva": 77296
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 851,
+        "iat_va": 269079424,
+        "target_va": 268448688,
+        "target_rva": 13232
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 779,
+        "iat_va": 269079428,
+        "target_va": 268439824,
+        "target_rva": 4368
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 532,
+        "iat_va": 269079432,
+        "target_va": 268491584,
+        "target_rva": 56128
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 414,
+        "iat_va": 269079436,
+        "target_va": 268540224,
+        "target_rva": 104768
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 321,
+        "iat_va": 269079440,
+        "target_va": 268554224,
+        "target_rva": 118768
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 375,
+        "iat_va": 269079444,
+        "target_va": 268539600,
+        "target_rva": 104144
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 545,
+        "iat_va": 269079448,
+        "target_va": 268489984,
+        "target_rva": 54528
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 86,
+        "iat_va": 269079452,
+        "target_va": 269167072,
+        "target_rva": 731616
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 413,
+        "iat_va": 269079456,
+        "target_va": 268540224,
+        "target_rva": 104768
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 345,
+        "iat_va": 269079460,
+        "target_va": 268555824,
+        "target_rva": 120368
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 543,
+        "iat_va": 269079464,
+        "target_va": 268490224,
+        "target_rva": 54768
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 393,
+        "iat_va": 269079468,
+        "target_va": 268442848,
+        "target_rva": 7392
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 395,
+        "iat_va": 269079472,
+        "target_va": 268442656,
+        "target_rva": 7200
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 535,
+        "iat_va": 269079476,
+        "target_va": 268490944,
+        "target_rva": 55488
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 531,
+        "iat_va": 269079480,
+        "target_va": 268443392,
+        "target_rva": 7936
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 412,
+        "iat_va": 269079484,
+        "target_va": 268442496,
+        "target_rva": 7040
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 372,
+        "iat_va": 269079488,
+        "target_va": 268442608,
+        "target_rva": 7152
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 366,
+        "iat_va": 269079492,
+        "target_va": 268442576,
+        "target_rva": 7120
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 239,
+        "iat_va": 269079496,
+        "target_va": 268625136,
+        "target_rva": 189680
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 247,
+        "iat_va": 269079500,
+        "target_va": 268625632,
+        "target_rva": 190176
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 246,
+        "iat_va": 269079504,
+        "target_va": 268625408,
+        "target_rva": 189952
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 254,
+        "iat_va": 269079508,
+        "target_va": 268629232,
+        "target_rva": 193776
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 234,
+        "iat_va": 269079512,
+        "target_va": 268622784,
+        "target_rva": 187328
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 733,
+        "iat_va": 269079516,
+        "target_va": 268508144,
+        "target_rva": 72688
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 730,
+        "iat_va": 269079520,
+        "target_va": 268509024,
+        "target_rva": 73568
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 707,
+        "iat_va": 269079524,
+        "target_va": 268494272,
+        "target_rva": 58816
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 726,
+        "iat_va": 269079528,
+        "target_va": 268507536,
+        "target_rva": 72080
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 654,
+        "iat_va": 269079532,
+        "target_va": 268494336,
+        "target_rva": 58880
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 704,
+        "iat_va": 269079536,
+        "target_va": 268493696,
+        "target_rva": 58240
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 728,
+        "iat_va": 269079540,
+        "target_va": 268507920,
+        "target_rva": 72464
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 729,
+        "iat_va": 269079544,
+        "target_va": 268527328,
+        "target_rva": 91872
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 721,
+        "iat_va": 269079548,
+        "target_va": 268508784,
+        "target_rva": 73328
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 731,
+        "iat_va": 269079552,
+        "target_va": 268509136,
+        "target_rva": 73680
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 720,
+        "iat_va": 269079556,
+        "target_va": 268507488,
+        "target_rva": 72032
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 207,
+        "iat_va": 269079560,
+        "target_va": 268467168,
+        "target_rva": 31712
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 645,
+        "iat_va": 269079564,
+        "target_va": 268492192,
+        "target_rva": 56736
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 763,
+        "iat_va": 269079568,
+        "target_va": 268524512,
+        "target_rva": 89056
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 688,
+        "iat_va": 269079572,
+        "target_va": 268501952,
+        "target_rva": 66496
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 800,
+        "iat_va": 269079576,
+        "target_va": 268525360,
+        "target_rva": 89904
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 789,
+        "iat_va": 269079580,
+        "target_va": 268522368,
+        "target_rva": 86912
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 759,
+        "iat_va": 269079584,
+        "target_va": 268522416,
+        "target_rva": 86960
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 742,
+        "iat_va": 269079588,
+        "target_va": 268509632,
+        "target_rva": 74176
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 396,
+        "iat_va": 269079592,
+        "target_va": 268554432,
+        "target_rva": 118976
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 282,
+        "iat_va": 269079596,
+        "target_va": 268481248,
+        "target_rva": 45792
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 123,
+        "iat_va": 269079600,
+        "target_va": 268455008,
+        "target_rva": 19552
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 329,
+        "iat_va": 269079604,
+        "target_va": 268551040,
+        "target_rva": 115584
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 423,
+        "iat_va": 269079608,
+        "target_va": 268843100,
+        "target_rva": 407644
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 118,
+        "iat_va": 269079612,
+        "target_va": 268454864,
+        "target_rva": 19408
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 119,
+        "iat_va": 269079616,
+        "target_va": 268456288,
+        "target_rva": 20832
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 912,
+        "iat_va": 269079620,
+        "target_va": 268587056,
+        "target_rva": 151600
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 358,
+        "iat_va": 269079624,
+        "target_va": 268563792,
+        "target_rva": 128336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 643,
+        "iat_va": 269079628,
+        "target_va": 268492416,
+        "target_rva": 56960
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 283,
+        "iat_va": 269079632,
+        "target_va": 268481760,
+        "target_rva": 46304
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 286,
+        "iat_va": 269079636,
+        "target_va": 268481504,
+        "target_rva": 46048
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 217,
+        "iat_va": 269079640,
+        "target_va": 268472464,
+        "target_rva": 37008
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 635,
+        "iat_va": 269079644,
+        "target_va": 268500048,
+        "target_rva": 64592
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 290,
+        "iat_va": 269079648,
+        "target_va": 268481680,
+        "target_rva": 46224
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 128,
+        "iat_va": 269079652,
+        "target_va": 268456016,
+        "target_rva": 20560
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 319,
+        "iat_va": 269079656,
+        "target_va": 268556112,
+        "target_rva": 120656
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 235,
+        "iat_va": 269079660,
+        "target_va": 268627024,
+        "target_rva": 191568
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 684,
+        "iat_va": 269079664,
+        "target_va": 268503696,
+        "target_rva": 68240
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 642,
+        "iat_va": 269079668,
+        "target_va": 268492320,
+        "target_rva": 56864
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 743,
+        "iat_va": 269079672,
+        "target_va": 268509632,
+        "target_rva": 74176
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 55,
+        "iat_va": 269079676,
+        "target_va": 268443744,
+        "target_rva": 8288
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 768,
+        "iat_va": 269079680,
+        "target_va": 268518320,
+        "target_rva": 82864
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 405,
+        "iat_va": 269079684,
+        "target_va": 268542704,
+        "target_rva": 107248
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 73,
+        "iat_va": 269079688,
+        "target_va": 268614368,
+        "target_rva": 178912
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 41,
+        "iat_va": 269079692,
+        "target_va": 268593152,
+        "target_rva": 157696
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 776,
+        "iat_va": 269079696,
+        "target_va": 268509776,
+        "target_rva": 74320
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 782,
+        "iat_va": 269079700,
+        "target_va": 268443552,
+        "target_rva": 8096
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 783,
+        "iat_va": 269079704,
+        "target_va": 268527328,
+        "target_rva": 91872
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 785,
+        "iat_va": 269079708,
+        "target_va": 268512832,
+        "target_rva": 77376
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 786,
+        "iat_va": 269079712,
+        "target_va": 268512800,
+        "target_rva": 77344
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 744,
+        "iat_va": 269079716,
+        "target_va": 268514368,
+        "target_rva": 78912
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 795,
+        "iat_va": 269079720,
+        "target_va": 268514768,
+        "target_rva": 79312
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 799,
+        "iat_va": 269079724,
+        "target_va": 268516848,
+        "target_rva": 81392
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 839,
+        "iat_va": 269079728,
+        "target_va": 268452752,
+        "target_rva": 17296
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 350,
+        "iat_va": 269079732,
+        "target_va": 268539584,
+        "target_rva": 104128
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 318,
+        "iat_va": 269079736,
+        "target_va": 268555760,
+        "target_rva": 120304
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 893,
+        "iat_va": 269079740,
+        "target_va": 268569136,
+        "target_rva": 133680
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 324,
+        "iat_va": 269079744,
+        "target_va": 268566048,
+        "target_rva": 130592
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 378,
+        "iat_va": 269079748,
+        "target_va": 268543488,
+        "target_rva": 108032
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 870,
+        "iat_va": 269079752,
+        "target_va": 268985088,
+        "target_rva": 549632
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 655,
+        "iat_va": 269079756,
+        "target_va": 268494400,
+        "target_rva": 58944
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 197,
+        "iat_va": 269079760,
+        "target_va": 268471376,
+        "target_rva": 35920
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 856,
+        "iat_va": 269079764,
+        "target_va": 268450624,
+        "target_rva": 15168
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 34,
+        "iat_va": 269079768,
+        "target_va": 268605040,
+        "target_rva": 169584
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 853,
+        "iat_va": 269079772,
+        "target_va": 268450096,
+        "target_rva": 14640
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 288,
+        "iat_va": 269079776,
+        "target_va": 268481072,
+        "target_rva": 45616
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 287,
+        "iat_va": 269079780,
+        "target_va": 268481088,
+        "target_rva": 45632
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 289,
+        "iat_va": 269079784,
+        "target_va": 268481056,
+        "target_rva": 45600
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 634,
+        "iat_va": 269079788,
+        "target_va": 268500000,
+        "target_rva": 64544
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 513,
+        "iat_va": 269079792,
+        "target_va": 268489344,
+        "target_rva": 53888
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 516,
+        "iat_va": 269079796,
+        "target_va": 268489552,
+        "target_rva": 54096
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 521,
+        "iat_va": 269079800,
+        "target_va": 268488704,
+        "target_rva": 53248
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 781,
+        "iat_va": 269079804,
+        "target_va": 268509520,
+        "target_rva": 74064
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 804,
+        "iat_va": 269079808,
+        "target_va": 268513120,
+        "target_rva": 77664
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 526,
+        "iat_va": 269079812,
+        "target_va": 268489872,
+        "target_rva": 54416
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 517,
+        "iat_va": 269079816,
+        "target_va": 268489760,
+        "target_rva": 54304
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 195,
+        "iat_va": 269079820,
+        "target_va": 268467328,
+        "target_rva": 31872
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 450,
+        "iat_va": 269079824,
+        "target_va": 268579136,
+        "target_rva": 143680
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 421,
+        "iat_va": 269079828,
+        "target_va": 268843108,
+        "target_rva": 407652
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 641,
+        "iat_va": 269079832,
+        "target_va": 268492224,
+        "target_rva": 56768
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 854,
+        "iat_va": 269079836,
+        "target_va": 268449760,
+        "target_rva": 14304
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 868,
+        "iat_va": 269079840,
+        "target_va": 268824736,
+        "target_rva": 389280
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 530,
+        "iat_va": 269079844,
+        "target_va": 268488768,
+        "target_rva": 53312
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 203,
+        "iat_va": 269079848,
+        "target_va": 268471920,
+        "target_rva": 36464
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 216,
+        "iat_va": 269079852,
+        "target_va": 268471184,
+        "target_rva": 35728
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 511,
+        "iat_va": 269079856,
+        "target_va": 268489952,
+        "target_rva": 54496
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 693,
+        "iat_va": 269079860,
+        "target_va": 268500576,
+        "target_rva": 65120
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 510,
+        "iat_va": 269079864,
+        "target_va": 268443392,
+        "target_rva": 7936
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 424,
+        "iat_va": 269079868,
+        "target_va": 268843104,
+        "target_rva": 407648
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 673,
+        "iat_va": 269079872,
+        "target_va": 268492720,
+        "target_rva": 57264
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 633,
+        "iat_va": 269079876,
+        "target_va": 268506304,
+        "target_rva": 70848
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 627,
+        "iat_va": 269079880,
+        "target_va": 268505632,
+        "target_rva": 70176
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 798,
+        "iat_va": 269079884,
+        "target_va": 268517824,
+        "target_rva": 82368
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 801,
+        "iat_va": 269079888,
+        "target_va": 268516880,
+        "target_rva": 81424
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 792,
+        "iat_va": 269079892,
+        "target_va": 268514608,
+        "target_rva": 79152
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 658,
+        "iat_va": 269079896,
+        "target_va": 268498784,
+        "target_rva": 63328
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 706,
+        "iat_va": 269079900,
+        "target_va": 268494240,
+        "target_rva": 58784
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 677,
+        "iat_va": 269079904,
+        "target_va": 268498096,
+        "target_rva": 62640
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 882,
+        "iat_va": 269079908,
+        "target_va": 268531328,
+        "target_rva": 95872
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 626,
+        "iat_va": 269079912,
+        "target_va": 268505904,
+        "target_rva": 70448
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 134,
+        "iat_va": 269079916,
+        "target_va": 268456800,
+        "target_rva": 21344
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 136,
+        "iat_va": 269079920,
+        "target_va": 268456496,
+        "target_rva": 21040
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 621,
+        "iat_va": 269079924,
+        "target_va": 268504752,
+        "target_rva": 69296
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 622,
+        "iat_va": 269079928,
+        "target_va": 268506784,
+        "target_rva": 71328
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 527,
+        "iat_va": 269079932,
+        "target_va": 268443408,
+        "target_rva": 7952
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 750,
+        "iat_va": 269079936,
+        "target_va": 268515360,
+        "target_rva": 79904
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 524,
+        "iat_va": 269079940,
+        "target_va": 268488720,
+        "target_rva": 53264
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 749,
+        "iat_va": 269079944,
+        "target_va": 268515296,
+        "target_rva": 79840
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 523,
+        "iat_va": 269079948,
+        "target_va": 268490272,
+        "target_rva": 54816
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 529,
+        "iat_va": 269079952,
+        "target_va": 268490016,
+        "target_rva": 54560
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 747,
+        "iat_va": 269079956,
+        "target_va": 268517488,
+        "target_rva": 82032
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 515,
+        "iat_va": 269079960,
+        "target_va": 268489424,
+        "target_rva": 53968
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 130,
+        "iat_va": 269079964,
+        "target_va": 268456480,
+        "target_rva": 21024
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 132,
+        "iat_va": 269079968,
+        "target_va": 268456960,
+        "target_rva": 21504
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 129,
+        "iat_va": 269079972,
+        "target_va": 268456432,
+        "target_rva": 20976
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 137,
+        "iat_va": 269079976,
+        "target_va": 268456624,
+        "target_rva": 21168
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 735,
+        "iat_va": 269079980,
+        "target_va": 268508320,
+        "target_rva": 72864
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 191,
+        "iat_va": 269079984,
+        "target_va": 268466320,
+        "target_rva": 30864
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 222,
+        "iat_va": 269079988,
+        "target_va": 268477920,
+        "target_rva": 42464
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 190,
+        "iat_va": 269079992,
+        "target_va": 268466288,
+        "target_rva": 30832
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 772,
+        "iat_va": 269079996,
+        "target_va": 268443488,
+        "target_rva": 8032
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 777,
+        "iat_va": 269080000,
+        "target_va": 268509728,
+        "target_rva": 74272
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 756,
+        "iat_va": 269080004,
+        "target_va": 268512720,
+        "target_rva": 77264
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 807,
+        "iat_va": 269080008,
+        "target_va": 268509856,
+        "target_rva": 74400
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 659,
+        "iat_va": 269080012,
+        "target_va": 268499248,
+        "target_rva": 63792
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 806,
+        "iat_va": 269080016,
+        "target_va": 268510640,
+        "target_rva": 75184
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 780,
+        "iat_va": 269080020,
+        "target_va": 268443520,
+        "target_rva": 8064
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 649,
+        "iat_va": 269080024,
+        "target_va": 268501152,
+        "target_rva": 65696
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 692,
+        "iat_va": 269080028,
+        "target_va": 268500752,
+        "target_rva": 65296
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 755,
+        "iat_va": 269080032,
+        "target_va": 268516128,
+        "target_rva": 80672
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 757,
+        "iat_va": 269080036,
+        "target_va": 268512096,
+        "target_rva": 76640
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 754,
+        "iat_va": 269080040,
+        "target_va": 268512272,
+        "target_rva": 76816
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 758,
+        "iat_va": 269080044,
+        "target_va": 268512528,
+        "target_rva": 77072
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 751,
+        "iat_va": 269080048,
+        "target_va": 268515728,
+        "target_rva": 80272
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 765,
+        "iat_va": 269080052,
+        "target_va": 268513456,
+        "target_rva": 78000
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 740,
+        "iat_va": 269080056,
+        "target_va": 268521360,
+        "target_rva": 85904
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 486,
+        "iat_va": 269080060,
+        "target_va": 268439792,
+        "target_rva": 4336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 482,
+        "iat_va": 269080064,
+        "target_va": 268469968,
+        "target_rva": 34512
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 490,
+        "iat_va": 269080068,
+        "target_va": 268470048,
+        "target_rva": 34592
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 485,
+        "iat_va": 269080072,
+        "target_va": 268471120,
+        "target_rva": 35664
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 472,
+        "iat_va": 269080076,
+        "target_va": 268469904,
+        "target_rva": 34448
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 478,
+        "iat_va": 269080080,
+        "target_va": 268481056,
+        "target_rva": 45600
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 357,
+        "iat_va": 269080084,
+        "target_va": 268559856,
+        "target_rva": 124400
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 492,
+        "iat_va": 269080088,
+        "target_va": 268470608,
+        "target_rva": 35152
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 471,
+        "iat_va": 269080092,
+        "target_va": 268469872,
+        "target_rva": 34416
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 211,
+        "iat_va": 269080096,
+        "target_va": 268467808,
+        "target_rva": 32352
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 133,
+        "iat_va": 269080100,
+        "target_va": 268439616,
+        "target_rva": 4160
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 201,
+        "iat_va": 269080104,
+        "target_va": 268467936,
+        "target_rva": 32480
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 212,
+        "iat_va": 269080108,
+        "target_va": 268468896,
+        "target_rva": 33440
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 193,
+        "iat_va": 269080112,
+        "target_va": 268467760,
+        "target_rva": 32304
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 209,
+        "iat_va": 269080116,
+        "target_va": 268474192,
+        "target_rva": 38736
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 354,
+        "iat_va": 269080120,
+        "target_va": 268545120,
+        "target_rva": 109664
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 708,
+        "iat_va": 269080124,
+        "target_va": 268501376,
+        "target_rva": 65920
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 547,
+        "iat_va": 269080128,
+        "target_va": 268490864,
+        "target_rva": 55408
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 538,
+        "iat_va": 269080132,
+        "target_va": 268491104,
+        "target_rva": 55648
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 206,
+        "iat_va": 269080136,
+        "target_va": 268468368,
+        "target_rva": 32912
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 644,
+        "iat_va": 269080140,
+        "target_va": 268492496,
+        "target_rva": 57040
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 76,
+        "iat_va": 269080144,
+        "target_va": 268610560,
+        "target_rva": 175104
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 214,
+        "iat_va": 269080148,
+        "target_va": 268468256,
+        "target_rva": 32800
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 709,
+        "iat_va": 269080152,
+        "target_va": 268503968,
+        "target_rva": 68512
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 860,
+        "iat_va": 269080156,
+        "target_va": 268450496,
+        "target_rva": 15040
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 198,
+        "iat_va": 269080160,
+        "target_va": 268468768,
+        "target_rva": 33312
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 199,
+        "iat_va": 269080164,
+        "target_va": 268468832,
+        "target_rva": 33376
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 915,
+        "iat_va": 269080168,
+        "target_va": 268476864,
+        "target_rva": 41408
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 548,
+        "iat_va": 269080172,
+        "target_va": 268488656,
+        "target_rva": 53200
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 79,
+        "iat_va": 269080176,
+        "target_va": 268596624,
+        "target_rva": 161168
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 32,
+        "iat_va": 269080180,
+        "target_va": 268610192,
+        "target_rva": 174736
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 85,
+        "iat_va": 269080184,
+        "target_va": 268591696,
+        "target_rva": 156240
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 724,
+        "iat_va": 269080188,
+        "target_va": 268507632,
+        "target_rva": 72176
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 681,
+        "iat_va": 269080192,
+        "target_va": 268493296,
+        "target_rva": 57840
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 682,
+        "iat_va": 269080196,
+        "target_va": 268493360,
+        "target_rva": 57904
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 219,
+        "iat_va": 269080200,
+        "target_va": 268467872,
+        "target_rva": 32416
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 210,
+        "iat_va": 269080204,
+        "target_va": 268466352,
+        "target_rva": 30896
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 652,
+        "iat_va": 269080208,
+        "target_va": 268494336,
+        "target_rva": 58880
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 587,
+        "iat_va": 269080212,
+        "target_va": 268632064,
+        "target_rva": 196608
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 671,
+        "iat_va": 269080216,
+        "target_va": 268493136,
+        "target_rva": 57680
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 267,
+        "iat_va": 269080220,
+        "target_va": 268482400,
+        "target_rva": 46944
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 268,
+        "iat_va": 269080224,
+        "target_va": 268482912,
+        "target_rva": 47456
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 271,
+        "iat_va": 269080228,
+        "target_va": 268482704,
+        "target_rva": 47248
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 803,
+        "iat_va": 269080232,
+        "target_va": 268512896,
+        "target_rva": 77440
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 263,
+        "iat_va": 269080236,
+        "target_va": 268482368,
+        "target_rva": 46912
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 264,
+        "iat_va": 269080240,
+        "target_va": 268483232,
+        "target_rva": 47776
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 568,
+        "iat_va": 269080244,
+        "target_va": 268632864,
+        "target_rva": 197408
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 580,
+        "iat_va": 269080248,
+        "target_va": 268631696,
+        "target_rva": 196240
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 585,
+        "iat_va": 269080252,
+        "target_va": 268631200,
+        "target_rva": 195744
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 574,
+        "iat_va": 269080256,
+        "target_va": 268634672,
+        "target_rva": 199216
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 597,
+        "iat_va": 269080260,
+        "target_va": 268637824,
+        "target_rva": 202368
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 604,
+        "iat_va": 269080264,
+        "target_va": 268637984,
+        "target_rva": 202528
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 606,
+        "iat_va": 269080268,
+        "target_va": 268638464,
+        "target_rva": 203008
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 599,
+        "iat_va": 269080272,
+        "target_va": 268638192,
+        "target_rva": 202736
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 185,
+        "iat_va": 269080276,
+        "target_va": 268458528,
+        "target_rva": 23072
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 603,
+        "iat_va": 269080280,
+        "target_va": 268637552,
+        "target_rva": 202096
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 602,
+        "iat_va": 269080284,
+        "target_va": 268637472,
+        "target_rva": 202016
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 595,
+        "iat_va": 269080288,
+        "target_va": 268638848,
+        "target_rva": 203392
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 891,
+        "iat_va": 269080292,
+        "target_va": 268575792,
+        "target_rva": 140336
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 441,
+        "iat_va": 269080296,
+        "target_va": 268582688,
+        "target_rva": 147232
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 328,
+        "iat_va": 269080300,
+        "target_va": 268543056,
+        "target_rva": 107600
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 584,
+        "iat_va": 269080304,
+        "target_va": 268635088,
+        "target_rva": 199632
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 588,
+        "iat_va": 269080308,
+        "target_va": 268634800,
+        "target_rva": 199344
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 874,
+        "iat_va": 269080312,
+        "target_va": 268507040,
+        "target_rva": 71584
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 567,
+        "iat_va": 269080316,
+        "target_va": 268629424,
+        "target_rva": 193968
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 840,
+        "iat_va": 269080320,
+        "target_va": 268448784,
+        "target_rva": 13328
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 766,
+        "iat_va": 269080324,
+        "target_va": 268523040,
+        "target_rva": 87584
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 784,
+        "iat_va": 269080328,
+        "target_va": 268518208,
+        "target_rva": 82752
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 764,
+        "iat_va": 269080332,
+        "target_va": 268523296,
+        "target_rva": 87840
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 573,
+        "iat_va": 269080336,
+        "target_va": 268632432,
+        "target_rva": 196976
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 835,
+        "iat_va": 269080340,
+        "target_va": 268453568,
+        "target_rva": 18112
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 180,
+        "iat_va": 269080344,
+        "target_va": 268465776,
+        "target_rva": 30320
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 594,
+        "iat_va": 269080348,
+        "target_va": 268636464,
+        "target_rva": 201008
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 598,
+        "iat_va": 269080352,
+        "target_va": 268636672,
+        "target_rva": 201216
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 694,
+        "iat_va": 269080356,
+        "target_va": 268439584,
+        "target_rva": 4128
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 590,
+        "iat_va": 269080360,
+        "target_va": 268634304,
+        "target_rva": 198848
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 680,
+        "iat_va": 269080364,
+        "target_va": 268493088,
+        "target_rva": 57632
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 841,
+        "iat_va": 269080368,
+        "target_va": 268453936,
+        "target_rva": 18480
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 601,
+        "iat_va": 269080372,
+        "target_va": 268638080,
+        "target_rva": 202624
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 889,
+        "iat_va": 269080376,
+        "target_va": 268571680,
+        "target_rva": 136224
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 619,
+        "iat_va": 269080380,
+        "target_va": 268639680,
+        "target_rva": 204224
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 558,
+        "iat_va": 269080384,
+        "target_va": 268630912,
+        "target_rva": 195456
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 572,
+        "iat_va": 269080388,
+        "target_va": 268631056,
+        "target_rva": 195600
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 570,
+        "iat_va": 269080392,
+        "target_va": 268631152,
+        "target_rva": 195696
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 571,
+        "iat_va": 269080396,
+        "target_va": 268632848,
+        "target_rva": 197392
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 611,
+        "iat_va": 269080400,
+        "target_va": 268639344,
+        "target_rva": 203888
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 610,
+        "iat_va": 269080404,
+        "target_va": 268639280,
+        "target_rva": 203824
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 577,
+        "iat_va": 269080408,
+        "target_va": 268635728,
+        "target_rva": 200272
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 327,
+        "iat_va": 269080412,
+        "target_va": 268566608,
+        "target_rva": 131152
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 400,
+        "iat_va": 269080416,
+        "target_va": 268547968,
+        "target_rva": 112512
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 910,
+        "iat_va": 269080420,
+        "target_va": 268550752,
+        "target_rva": 115296
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 80,
+        "iat_va": 269080424,
+        "target_va": 268594864,
+        "target_rva": 159408
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 61,
+        "iat_va": 269080428,
+        "target_va": 268594000,
+        "target_rva": 158544
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 50,
+        "iat_va": 269080432,
+        "target_va": 268591600,
+        "target_rva": 156144
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 406,
+        "iat_va": 269080436,
+        "target_va": 268542832,
+        "target_rva": 107376
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 320,
+        "iat_va": 269080440,
+        "target_va": 268556368,
+        "target_rva": 120912
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 698,
+        "iat_va": 269080444,
+        "target_va": 268494832,
+        "target_rva": 59376
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 705,
+        "iat_va": 269080448,
+        "target_va": 268500192,
+        "target_rva": 64736
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 666,
+        "iat_va": 269080452,
+        "target_va": 268494736,
+        "target_rva": 59280
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 422,
+        "iat_va": 269080456,
+        "target_va": 268843112,
+        "target_rva": 407656
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 640,
+        "iat_va": 269080460,
+        "target_va": 268500928,
+        "target_rva": 65472
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 821,
+        "iat_va": 269080464,
+        "target_va": 268529024,
+        "target_rva": 93568
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 820,
+        "iat_va": 269080468,
+        "target_va": 268527536,
+        "target_rva": 92080
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 828,
+        "iat_va": 269080472,
+        "target_va": 268481056,
+        "target_rva": 45600
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 829,
+        "iat_va": 269080476,
+        "target_va": 268527328,
+        "target_rva": 91872
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 832,
+        "iat_va": 269080480,
+        "target_va": 268529056,
+        "target_rva": 93600
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 833,
+        "iat_va": 269080484,
+        "target_va": 268527680,
+        "target_rva": 92224
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 826,
+        "iat_va": 269080488,
+        "target_va": 268527776,
+        "target_rva": 92320
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 824,
+        "iat_va": 269080492,
+        "target_va": 268528432,
+        "target_rva": 92976
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 825,
+        "iat_va": 269080496,
+        "target_va": 268528288,
+        "target_rva": 92832
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 683,
+        "iat_va": 269080500,
+        "target_va": 268492816,
+        "target_rva": 57360
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 711,
+        "iat_va": 269080504,
+        "target_va": 268494176,
+        "target_rva": 58720
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 409,
+        "iat_va": 269080508,
+        "target_va": 268549824,
+        "target_rva": 114368
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 408,
+        "iat_va": 269080512,
+        "target_va": 268560768,
+        "target_rva": 125312
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 49,
+        "iat_va": 269080516,
+        "target_va": 268591520,
+        "target_rva": 156064
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 48,
+        "iat_va": 269080520,
+        "target_va": 268445408,
+        "target_rva": 9952
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 40,
+        "iat_va": 269080524,
+        "target_va": 268603872,
+        "target_rva": 168416
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 35,
+        "iat_va": 269080528,
+        "target_va": 268604192,
+        "target_rva": 168736
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 22,
+        "iat_va": 269080532,
+        "target_va": 268603680,
+        "target_rva": 168224
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 23,
+        "iat_va": 269080536,
+        "target_va": 268607248,
+        "target_rva": 171792
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 335,
+        "iat_va": 269080540,
+        "target_va": 268548272,
+        "target_rva": 112816
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 379,
+        "iat_va": 269080544,
+        "target_va": 268556624,
+        "target_rva": 121168
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 30,
+        "iat_va": 269080548,
+        "target_va": 268595872,
+        "target_rva": 160416
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 78,
+        "iat_va": 269080552,
+        "target_va": 268596896,
+        "target_rva": 161440
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 66,
+        "iat_va": 269080556,
+        "target_va": 268443760,
+        "target_rva": 8304
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 63,
+        "iat_va": 269080560,
+        "target_va": 268608144,
+        "target_rva": 172688
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 218,
+        "iat_va": 269080564,
+        "target_va": 268473088,
+        "target_rva": 37632
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 420,
+        "iat_va": 269080568,
+        "target_va": 268540304,
+        "target_rva": 104848
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 436,
+        "iat_va": 269080572,
+        "target_va": 268579712,
+        "target_rva": 144256
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 51,
+        "iat_va": 269080576,
+        "target_va": 268618976,
+        "target_rva": 183520
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 47,
+        "iat_va": 269080580,
+        "target_va": 268591456,
+        "target_rva": 156000
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 54,
+        "iat_va": 269080584,
+        "target_va": 268591392,
+        "target_rva": 155936
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 26,
+        "iat_va": 269080588,
+        "target_va": 268599760,
+        "target_rva": 164304
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 884,
+        "iat_va": 269080592,
+        "target_va": 268575360,
+        "target_rva": 139904
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 36,
+        "iat_va": 269080596,
+        "target_va": 268599552,
+        "target_rva": 164096
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 45,
+        "iat_va": 269080600,
+        "target_va": 268599504,
+        "target_rva": 164048
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 29,
+        "iat_va": 269080604,
+        "target_va": 268621664,
+        "target_rva": 186208
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 28,
+        "iat_va": 269080608,
+        "target_va": 268592672,
+        "target_rva": 157216
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 885,
+        "iat_va": 269080612,
+        "target_va": 268575648,
+        "target_rva": 140192
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 56,
+        "iat_va": 269080616,
+        "target_va": 268443728,
+        "target_rva": 8272
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 39,
+        "iat_va": 269080620,
+        "target_va": 268599920,
+        "target_rva": 164464
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 67,
+        "iat_va": 269080624,
+        "target_va": 268443776,
+        "target_rva": 8320
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 892,
+        "iat_va": 269080628,
+        "target_va": 268568352,
+        "target_rva": 132896
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 895,
+        "iat_va": 269080632,
+        "target_va": 268572800,
+        "target_rva": 137344
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 896,
+        "iat_va": 269080636,
+        "target_va": 268572128,
+        "target_rva": 136672
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 890,
+        "iat_va": 269080640,
+        "target_va": 268569952,
+        "target_rva": 134496
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 664,
+        "iat_va": 269080644,
+        "target_va": 268492048,
+        "target_rva": 56592
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 57,
+        "iat_va": 269080648,
+        "target_va": 268599152,
+        "target_rva": 163696
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 670,
+        "iat_va": 269080652,
+        "target_va": 268493040,
+        "target_rva": 57584
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 752,
+        "iat_va": 269080656,
+        "target_va": 268521392,
+        "target_rva": 85936
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 452,
+        "iat_va": 269080660,
+        "target_va": 268580432,
+        "target_rva": 144976
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 284,
+        "iat_va": 269080664,
+        "target_va": 268481936,
+        "target_rva": 46480
+      },
+      {
+        "library": "FBase.dll",
+        "name": null,
+        "ordinal": 291,
+        "iat_va": 269080668,
+        "target_va": 268481600,
+        "target_rva": 46144
+      }
+    ]
+  },
+  {
+    "from": "objsys.dll",
+    "to": "urlmon.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 2,
+    "resolved_imports": []
+  },
+  {
+    "from": "objsys.dll",
+    "to": "winmm.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 14,
+    "resolved_imports": []
+  },
+  {
+    "from": "service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "to": "kernel32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 65,
+    "resolved_imports": []
+  },
+  {
+    "from": "service/onepusonenew/game/pacman/bin/pacmandll.dll",
+    "to": "user32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 2,
+    "resolved_imports": []
+  },
+  {
+    "from": "service/templeflower/bin/showdown.dll",
+    "to": "kernel32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 106,
+    "resolved_imports": []
+  },
+  {
+    "from": "service/templeflower/bin/showdown.dll",
+    "to": "user32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 14,
+    "resolved_imports": []
+  },
+  {
+    "from": "service/templeflower/bin/showdown.dll",
+    "to": "gdi32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 15,
+    "resolved_imports": []
+  },
+  {
+    "from": "service/templeflower/bin/showdown.dll",
+    "to": "advapi32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 5,
+    "resolved_imports": []
+  },
+  {
+    "from": "service/templeflower/bin/showdown.dll",
+    "to": "ole32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 1,
+    "resolved_imports": []
+  },
+  {
+    "from": "service/templeflower/bin/showdown.dll",
+    "to": "oleaut32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 1,
+    "resolved_imports": []
+  },
+  {
+    "from": "帅哥奇域.EXE",
+    "to": "kernel32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 89,
+    "resolved_imports": []
+  },
+  {
+    "from": "帅哥奇域.EXE",
+    "to": "user32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 10,
+    "resolved_imports": []
+  },
+  {
+    "from": "帅哥奇域.EXE",
+    "to": "advapi32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 3,
+    "resolved_imports": []
+  },
+  {
+    "from": "帅哥奇域.EXE",
+    "to": "oleaut32.dll",
+    "kind": "static_import",
+    "local": false,
+    "import_count": 11,
+    "resolved_imports": []
+  },
+  {
+    "from": "fcruner.exe",
+    "to": "objsys.dll",
+    "kind": "dynamic_load",
+    "callsite_va": "0x40296c",
+    "exports": [
+      "StdInitFancyBox",
+      "StdCmdFancyBox"
+    ]
+  },
+  {
+    "from": "objsys.dll",
+    "to": "caller_selected_user_dll",
+    "kind": "dynamic_load",
+    "callsite_va": "0x1006084a",
+    "exports": [
+      "GetUserClassInfo"
+    ],
+    "limitation": "Does not establish which supplied plugin a particular FCC loads."
+  }
+]
